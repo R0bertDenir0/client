@@ -20,7 +20,7 @@ type CreateOptions struct {
 }
 
 func (ac *assetsClient) Create(options CreateOptions) ([]byte, error) {
-	if options.Filepath == "" || options.Data == "" {
+    if options.Filepath == "" && options.Data == "" {
 		return nil, errors.New("Please provide publish options in order to publish")
 	}
 
@@ -38,7 +38,7 @@ func (ac *assetsClient) Create(options CreateOptions) ([]byte, error) {
 		return nil, errors.New("Could not unmarshal resolve request response")
 	}
 
-	respJson, err := ac.Client.getResult(GetResultOptions{publishResponse["handler_id"].(int), opt.Method})
+	respJson, err := ac.Client.getResult(GetResultOptions{publishResponse["handler_id"].(string), opt.Method})
 	if err != nil {
 		return nil, err
 	}
@@ -71,7 +71,7 @@ func (ac *assetsClient) Update(ual string, options CreateOptions) ([]byte, error
 		return nil, errors.New("Could not unmarshal resolve request response")
 	}
 
-	respJson, err := ac.Client.getResult(GetResultOptions{publishResponse["handler_id"].(int), opt.Method})
+	respJson, err := ac.Client.getResult(GetResultOptions{publishResponse["handler_id"].(string), opt.Method})
 	if err != nil {
 		return nil, err
 	}

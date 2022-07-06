@@ -10,11 +10,14 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"io/ioutil"
+	"bytes"
+	"mime/multipart"
+	"os"
 	"log"
 	"net/http"
 	"net/url"
 	"time"
+	"strings"
 
 	"dkg-client-go/parser"
 
@@ -100,8 +103,15 @@ func newNativeAbstractClient(options AbstractClientOptions) (nativeAbstractClien
 // Get node information (version, is auto upgrade enabled, is telemetry enabled)
 //
 
-func (ac *nativeAbstractClient) NodeInfo() (*http.Response, error) {
+func (ac *nativeAbstractClient) NodeInfo() ([]byte, error) {
 	ac.Logger.Debug("Sending node info request")
+
+
+	req, err := http.NewRequest("GET", fmt.Sprintf("%s/info", ac.nodeBaseUrl), nil)
+	if err != nil {
+	    return nil, err
+	}
+	req.Close = true
 
 	// Create a new client
 	client := http.Client{
@@ -109,26 +119,43 @@ func (ac *nativeAbstractClient) NodeInfo() (*http.Response, error) {
 	}
 
 	// Send the request
-	resp, err := client.Get(fmt.Sprintf("%s/info", ac.nodeBaseUrl))
+	resp, err := client.Do(req)
 	if err != nil {
 		return nil, err
 	}
-	return resp, nil
+
+	// convert resp.Body to []byte
+	b, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, errors.New("Could not read response body")
+	}
+	resp.Body.Close()
+
+	return b, nil
 }
 
 func (ac *nativeAbstractClient) sendNodeInfoRequest() error {
 	ac.Logger.Debug("Sending node info request")
 
+
+	req, err := http.NewRequest("GET", fmt.Sprintf("%s/info", ac.nodeBaseUrl), nil)
+	if err != nil {
+	    return err
+	}
+	req.Close = true
+
 	// Create a new client
 	client := http.Client{
 		Timeout: time.Duration(defaultTimeoutInSeconds*1000) * time.Second,
 	}
 
 	// Send the request
-	_, err := client.Get(fmt.Sprintf("%s/info", ac.nodeBaseUrl))
+	_, err = client.Do(req)
 	if err != nil {
 		return err
 	}
+
+
 	return nil
 }
 
@@ -162,7 +189,7 @@ func (ac *nativeAbstractClient) Publish(options PublishRequestOptions) ([]byte, 
 	}
 
 	// Get the handler id
-	opt := GetResultOptions{queryResponse["handler_id"].(int), "publish"}
+	opt := GetResultOptions{queryResponse["handler_id"].(string), "publish"}
 
 	// Get the actual result
 	respJson, err := ac.getResult(opt)
@@ -181,12 +208,12 @@ func (ac *nativeAbstractClient) publishRequest(options PublishRequestOptions) ([
 	// Add the data to the form
 	if options.Filepath != "" {
 		// Read the file and add it to the form
-		buf, err := ioutil.ReadFile(options.Filepath)
-		if err != nil {
-			return nil, errors.New("Could not open file")
-		}
+		//buf, err := ioutil.ReadFile(options.Filepath)
+		//if err != nil {
+		//	return nil, errors.New("Could not open file")
+		//}
 
-		form.Set("file", string(buf))
+		form.Set("file", string(options.Filepath))
 	} else {
 		// Directly add the data to the form
 		form.Set("data", options.Data)
@@ -204,16 +231,26 @@ func (ac *nativeAbstractClient) publishRequest(options PublishRequestOptions) ([
 		form.Set("ual", options.UAL)
 	}
 
-	// Create a new client
-	client := &http.Client{}
-
 	// Form the request
 	formUrl := fmt.Sprintf("%s/%s", ac.nodeBaseUrl, options.Method)
+	
+
+	req, err := http.NewRequest("POST", formUrl, strings.NewReader(form.Encode()))
+	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
+	if err != nil {
+	    fmt.Println("request")
+	    return nil, err
+	}
+	req.Close = true
+
+	// Create a new client
+	client := http.Client{}
 
 	// Send the request
-	resp, err := client.PostForm(formUrl, form)
+	resp, err := client.Do(req)
 	if err != nil {
-		return nil, errors.New("Could not send publish request form")
+		fmt.Println("response")
+		return nil, err
 	}
 
 	// convert resp.Body to []byte
@@ -259,7 +296,7 @@ func (ac *nativeAbstractClient) Resolve(options ResolveRequestOptions) ([]byte, 
 	}
 
 	// Get the handler id
-	opt := GetResultOptions{resolveResponse["handler_id"].(int), "resolve"}
+	opt := GetResultOptions{resolveResponse["handler_id"].(string), "resolve"}
 
 	// Get the result with that id
 	respJson, err := ac.getResult(opt)
@@ -511,13 +548,15 @@ func (ac *nativeAbstractClient) Query(options QueryOptions) ([]byte, error) {
 
 	queryResponse := make(map[string]interface{})
 
+	fmt.Println(string(resp))
+
 	// Transform response to json struct
 	if err := json.Unmarshal(resp, &queryResponse); err != nil {
 		return nil, errors.New("Could not unmarshal query request response")
 	}
 
 	// Get the handler id
-	opt := GetResultOptions{queryResponse["handler_id"].(int), "query"}
+	opt := GetResultOptions{queryResponse["handler_id"].(string), "query"}
 
 	// Get the actual result
 	respJson, err := ac.getResult(opt)
@@ -526,6 +565,26 @@ func (ac *nativeAbstractClient) Query(options QueryOptions) ([]byte, error) {
 	}
 
 	return respJson, nil
+}
+
+func createForm(form map[string]string) (string, io.Reader, error) {
+   body := new(bytes.Buffer)
+   mp := multipart.NewWriter(body)
+   defer mp.Close()
+   for key, val := range form {
+      if strings.HasPrefix(val, "@") {
+         val = val[1:]
+         file, err := os.Open(val)
+         if err != nil { return "", nil, err }
+         defer file.Close()
+         part, err := mp.CreateFormFile(key, val)
+         if err != nil { return "", nil, err }
+         io.Copy(part, file)
+      } else {
+         mp.WriteField(key, val)
+      }
+   }
+   return mp.FormDataContentType(), body, nil
 }
 
 // Options used when you want to send a query
@@ -545,19 +604,24 @@ func (ac *nativeAbstractClient) queryRequest(options QueryOptions) ([]byte, erro
 
 	// Add values to the form to be sended
 	queryForm := url.Values{}
-	queryForm.Add("query", options.Query)
+	//queryForm.Add("query", options.Query)
 
-	queryUrl := url.Values{}
-	queryUrl.Add("type", options.Type)
+	//queryUrl := url.Values{}
+	queryForm.Add("type", options.Type)
 
 	// Format the URL
-	formUrl := fmt.Sprintf("%s/query?%s", ac.nodeBaseUrl, queryUrl.Encode())
-
-	// Create the client
-	client := &http.Client{}
+	formUrl := fmt.Sprintf("%s/query?%s", ac.nodeBaseUrl, queryForm.Encode())
 
 	// Make the request
-	resp, err := client.PostForm(formUrl, queryForm)
+
+	form := map[string]string{"query": options.Query, "type": options.Type}
+
+	ct, body, err := createForm(form)
+	if err != nil {
+	    panic(err)
+	}
+
+	resp, err := http.Post(formUrl, ct, body)
 	if err != nil {
 		return nil, errors.New("Could not send publish request form")
 	}
@@ -600,7 +664,7 @@ func (ac *nativeAbstractClient) Validate(options ValidateOptions) ([]validatedTr
 	}
 
 	// Get the handler id
-	opt := GetResultOptions{resolveResponse["handler_id"].(int), "proofs:get"}
+	opt := GetResultOptions{resolveResponse["handler_id"].(string), "proofs:get"}
 
 	// Get the actual result
 	respJson, err := ac.getResult(opt)
@@ -773,7 +837,7 @@ func (ac *nativeAbstractClient) fetchRootHash(assertionId string) (string, error
 }
 
 type GetResultOptions struct {
-	HandlerId int
+	HandlerId string
 	Operation string
 }
 
@@ -790,7 +854,7 @@ func (ac *nativeAbstractClient) getResult(options GetResultOptions) ([]byte, err
 	<-timeoutFlag
 
 	// Check options
-	if options.HandlerId == 0 || options.Operation == "" {
+	if options.HandlerId == "" || options.Operation == "" {
 		return nil, errors.New("Unable to get results, need handler id and operation")
 	}
 
@@ -804,12 +868,12 @@ func (ac *nativeAbstractClient) getResult(options GetResultOptions) ([]byte, err
 	retries := 0
 
 	// Url to get the result
-	formUrl := fmt.Sprintf("%s/%s/result/%d", ac.nodeBaseUrl, options.Operation, options.HandlerId)
+	formUrl := fmt.Sprintf("%s/%s/result/%s", ac.nodeBaseUrl, options.Operation, options.HandlerId)
 
 	// Create the http request
 	req, err := http.NewRequest(http.MethodGet, formUrl, nil)
 	if err != nil {
-		return nil, errors.New("Wrong operation, url or id provided")
+		return nil, err//errors.New("Wrong operation, url or id provided")
 	}
 
 	// Set the header
