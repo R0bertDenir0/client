@@ -12,7 +12,7 @@ const OT_NODE_HOSTNAME string = "167.99.210.73"
 const OT_NODE_PORT int = 8900
 
 func main() {
-	opt := d.DkgClientOptions{Endpoint: OT_NODE_HOSTNAME, Port: OT_NODE_PORT, UseSSL: false, LogLevel: golog.ERROR, MaxNumberOfRetries: 5}
+	opt := d.DkgClientOptions{Endpoint: OT_NODE_HOSTNAME, Port: OT_NODE_PORT, UseSSL: false, LogLevel: golog.ERROR, MaxNumberOfRetries: 15}
 
 	// Initialize connection to your DKG Node
 	dkg, err := d.NewDkgClient(opt)
@@ -20,7 +20,7 @@ func main() {
 		panic(err)
 	}
 
-	// Get info about endpoint that you connected to
+	// Get info about endpoint that you connected to ---WORKING---
 	//out, err := dkg.Client.NodeInfo()
 	//if err != nil {
 	//	panic(err)
@@ -29,12 +29,12 @@ func main() {
 	//fmt.Println(string(out))
 
 	// Provisioning an asset
-	//createOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	//createOut, err := dkg.Assets.Create(createOpt)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(createOut)
+	createOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	createOut, err := dkg.Assets.Create(createOpt)
+	if err != nil {
+	    panic(err)
+	}
+	fmt.Println(string(createOut))
 
 	// Updating the previously provisioned asset
 	//ual := "" // Set this to the UAL returned when provisioning an assert to update it
@@ -98,22 +98,22 @@ func main() {
 	//}
 	//fmt.Println(searchEntitiesOut)
 
-	// Execute sparql query on dkg
-	q := `PREFIX schema: <http://schema.org/>
-	CONSTRUCT { ?s ?p ?o }
-	WHERE {
-		GRAPH ?g {
-		?s ?p ?o .
-		?s schema:hasVisibility ?v
-	}
-}`
-	queryOpt := d.QueryOptions{Query: q, Type: "construct"}
-
-	queryOut, err := dkg.Client.Query(queryOpt)
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println(string(queryOut))
+	// Execute sparql query on dkg ---WORKING---
+// 	q := `PREFIX schema: <http://schema.org/>
+// 	CONSTRUCT { ?s ?p ?o }
+// 	WHERE {
+// 		GRAPH ?g {
+// 		?s ?p ?o .
+// 		?s schema:hasVisibility ?v
+// 	}
+// }`
+// 	queryOpt := d.QueryOptions{Query: q, Type: "construct"}
+//
+// 	queryOut, err := dkg.Client.Query(queryOpt)
+// 	if err != nil {
+// 		panic(err)
+// 	}
+// 	fmt.Println(string(queryOut))
 
 	// Validate some triples that we can get querying
 	//validateOpt := d.ValidateOptions{Nquads: []string{

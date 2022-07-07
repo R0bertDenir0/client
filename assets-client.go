@@ -24,21 +24,27 @@ func (ac *assetsClient) Create(options CreateOptions) ([]byte, error) {
 		return nil, errors.New("Please provide publish options in order to publish")
 	}
 
+
 	opt := PublishRequestOptions{"provision", options.Data, options.Filepath, options.Keywords, ""}
 
-	resp, err := ac.Client.Publish(opt)
+	// Make a query request
+	resp, err := ac.Client.publishRequest(opt)
 	if err != nil {
 		return nil, err
 	}
 
-	publishResponse := make(map[string]interface{})
+	createResponse := make(map[string]interface{})
 
-	// transform response to json struct
-	if err := json.Unmarshal(resp, &publishResponse); err != nil {
-		return nil, errors.New("Could not unmarshal resolve request response")
+	// Transform response to json struct
+	if err := json.Unmarshal(resp, &createResponse); err != nil {
+		return nil, errors.New("Could not unmarshal query request response")
 	}
 
-	respJson, err := ac.Client.getResult(GetResultOptions{publishResponse["handler_id"].(string), opt.Method})
+	// Get the handler id
+	resultOpt := GetResultOptions{createResponse["handler_id"].(string), "publish"}
+
+	// Get the actual result
+	respJson, err := ac.Client.getResult(resultOpt)
 	if err != nil {
 		return nil, err
 	}

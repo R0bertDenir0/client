@@ -203,56 +203,42 @@ func (ac *nativeAbstractClient) Publish(options PublishRequestOptions) ([]byte, 
 func (ac *nativeAbstractClient) publishRequest(options PublishRequestOptions) ([]byte, error) {
 	ac.Logger.Debug("Sending node info request")
 
-	form := url.Values{}
-
-	// Add the data to the form
-	if options.Filepath != "" {
-		// Read the file and add it to the form
-		//buf, err := ioutil.ReadFile(options.Filepath)
-		//if err != nil {
-		//	return nil, errors.New("Could not open file")
-		//}
-
-		form.Set("file", string(options.Filepath))
-	} else {
-		// Directly add the data to the form
-		form.Set("data", options.Data)
-	}
+	// Make the request
+	form := map[string]string{}
 
 	// Convert the keywords to a JSON string
 	jsonKeywords, err := json.Marshal(options.Keywords)
 	if err != nil {
 		return nil, errors.New("Could not convert the keywords to JSON")
 	}
-	form.Set("keywords", string(jsonKeywords))
+	form["keywords"] = string(jsonKeywords)
 
 	// Check if we have an UAL to add
 	if options.UAL != "" {
-		form.Set("ual", options.UAL)
+		form["ual"] = options.UAL
+	}
+
+	// Add the data to the form
+	if options.Filepath != "" {
+		// Read the file and add it to the form
+		form["file"] = fmt.Sprintf("@%s", options.Filepath)
+	} else {
+		// Directly add the data to the form
+		form["data"] = options.Data
+	}
+
+	ct, body, err := createForm(form)
+	if err != nil {
+	    return nil, err
 	}
 
 	// Form the request
 	formUrl := fmt.Sprintf("%s/%s", ac.nodeBaseUrl, options.Method)
-	
 
-	req, err := http.NewRequest("POST", formUrl, strings.NewReader(form.Encode()))
-	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
+	resp, err := http.Post(formUrl, ct, body)
 	if err != nil {
-	    fmt.Println("request")
-	    return nil, err
+		return nil, errors.New("Could not send publish request form")
 	}
-	req.Close = true
-
-	// Create a new client
-	client := http.Client{}
-
-	// Send the request
-	resp, err := client.Do(req)
-	if err != nil {
-		fmt.Println("response")
-		return nil, err
-	}
-
 	// convert resp.Body to []byte
 	b, err := io.ReadAll(resp.Body)
 	if err != nil {
@@ -885,6 +871,8 @@ func (ac *nativeAbstractClient) getResult(options GetResultOptions) ([]byte, err
 	timerFlag := make(chan bool, 1)
 
 	for {
+		fmt.Println("intento")
+
 		// If we do more retries that the max number of retries, return an error
 		if retries > ac.MaxNumberOfRetries {
 			return nil, errors.New("Unable to get results. Max number of retries reached")
@@ -922,16 +910,25 @@ func (ac *nativeAbstractClient) getResult(options GetResultOptions) ([]byte, err
 
 		ac.Logger.Debug(fmt.Sprintf("%s result status: %s", options.Operation, resultResponse["status"]))
 
+
+		fmt.Println(resultResponse)
+
 		// If the result is not pending, break the loop
 		if resultResponse["status"] != Pending {
+			fmt.Println("BREAKS")
 			break
 		}
 	}
+
+	fmt.Println("1")
 
 	// If failed, raise an error
 	if resultResponse["status"] == Failed {
 		return nil, errors.New(fmt.Sprintf("Get %s failed. Reason: %s", options.Operation, resultResponse["message"]))
 	}
+
+
+	fmt.Println("2")
 
 	// If no error found, return the JSON response
 	return b, nil
