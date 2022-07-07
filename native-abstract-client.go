@@ -376,6 +376,8 @@ func (ac *nativeAbstractClient) Search(options SearchRequestOptions) ([]byte, er
 	// Variable that stores the json as a map
 	searchRequestResponse := make(map[string]interface{})
 
+	fmt.Println(string(resp))
+
 	// Transform response to json struct
 	if err := json.Unmarshal(resp, &searchRequestResponse); err != nil {
 		return nil, errors.New("Could not unmarshal search result response")
@@ -383,7 +385,7 @@ func (ac *nativeAbstractClient) Search(options SearchRequestOptions) ([]byte, er
 
 	// Generate options
 	searchResultOptions := SearchResultOptions{
-		searchRequestResponse["handler_id"].(int),
+		searchRequestResponse["handler_id"].(string),
 		options.ResultType,
 		options.Timeout,
 		options.NumbersOfResults,
@@ -415,7 +417,9 @@ func (ac *nativeAbstractClient) searchRequest(options SearchRequestOptions) ([]b
 	client := &http.Client{}
 
 	// Format the URL
-	formUrl := fmt.Sprintf("%s/search?%s", ac.nodeBaseUrl, searchForm.Encode())
+	formUrl := fmt.Sprintf("%s/%s:search?%s", ac.nodeBaseUrl, options.ResultType, searchForm.Encode())
+
+    	fmt.Println(formUrl)
 
 	// Make the request
 	req, err := http.NewRequest(http.MethodGet, formUrl, nil)
@@ -448,14 +452,16 @@ func (ac *nativeAbstractClient) searchRequest(options SearchRequestOptions) ([]b
 
 // Options used when a search request is done
 type SearchResultOptions struct {
-	HandlerId        int
+	HandlerId        string
 	ResultType       string
 	Timeout          int
 	NumbersOfResults int
 }
 
+// Had to change some things in the function in comparison with the original
+// because the response didn't had the status message
 func (ac *nativeAbstractClient) getSearchResult(options SearchResultOptions) ([]byte, error) { //DONE
-	if options.HandlerId == 0 {
+	if options.HandlerId == "" {
 		return nil, errors.New("Unable to get results, need handler id")
 	}
 
@@ -463,7 +469,7 @@ func (ac *nativeAbstractClient) getSearchResult(options SearchResultOptions) ([]
 	client := &http.Client{}
 
 	// Format the URL
-	formUrl := fmt.Sprintf("%s/%s:search/result/%d", ac.nodeBaseUrl, options.ResultType, options.HandlerId)
+	formUrl := fmt.Sprintf("%s/%s:search/result/%s", ac.nodeBaseUrl, options.ResultType, options.HandlerId)
 
 	// Create the request
 	req, err := http.NewRequest(http.MethodGet, formUrl, nil)
@@ -476,9 +482,6 @@ func (ac *nativeAbstractClient) getSearchResult(options SearchResultOptions) ([]
 
 	// Channel for setting the timeouts
 	timeoutFlag := make(chan bool)
-
-	// Variable to show when the request has failed
-	failed := false
 
 	// Variable showing the current number of results received
 	currentNumberOfResults := 0
@@ -495,6 +498,8 @@ func (ac *nativeAbstractClient) getSearchResult(options SearchResultOptions) ([]
 
 	// Loop until the timeout is done, the request fails and the number of results is reached
 	for {
+		fmt.Println("Looping")
+
 		// Goroutine that will make the response go every 5 seconds
 		sleepTimeout := make(chan bool, 1)
 		go func() {
@@ -524,14 +529,10 @@ func (ac *nativeAbstractClient) getSearchResult(options SearchResultOptions) ([]
 			return nil, errors.New("Could not unmarshal search result response")
 		}
 
-		// Check if the request has failed
-		if searchResponse["status"] == "FAILED" {
-			failed = true
-		} else {
-			currentNumberOfResults = len(searchResponse["itemListElement"].([]interface{})[0].(map[string]interface{}))
-		}
+		// Update result number
+		currentNumberOfResults = len(searchResponse["itemListElement"].([]interface{})[0].(map[string]interface{}))
 
-		if <-timeoutFlag && failed && options.NumbersOfResults > currentNumberOfResults {
+		if <-timeoutFlag || options.NumbersOfResults < currentNumberOfResults {
 			break
 		}
 	}
@@ -660,7 +661,7 @@ func (ac *nativeAbstractClient) Validate(options ValidateOptions) ([]validatedTr
 	// First do a request
 	resp, err := ac.getProofsRequest(options)
 	if err != nil {
-		return nil, errors.New("Couldnt not send proofs request")
+		return nil, errors.New("Could not send proofs request")
 	}
 
 	resolveResponse := make(map[string]interface{})

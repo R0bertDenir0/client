@@ -56,50 +56,50 @@ func main() {
 	// }
 	// fmt.Println(string(publishOut))
 
-	// Resolving assertion
-	//resolveOpt := d.ResolveRequestOptions{IDS: []string{
-	//	"066787bc7269c062fe73b0ebb004c258e07151777e6dfba027fea046df5caf7c",
-	//	"2286826799d0a32a6f0eec7813fcb627910be45fca21f6378cb26ca95097c939"},
-	//}
-	//resolveOut, err := dkg.Client.Resolve(resolveOpt)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(resolveOut)
+	// Resolving assertion ---WORKING---
+	// resolveOpt := d.ResolveRequestOptions{IDS: []string{
+	// "066787bc7269c062fe73b0ebb004c258e07151777e6dfba027fea046df5caf7c",
+	// "2286826799d0a32a6f0eec7813fcb627910be45fca21f6378cb26ca95097c939"},
+	// }
+	// resolveOut, err := dkg.Client.Resolve(resolveOpt)
+	// if err != nil {
+	//     panic(err)
+	// }
+	// fmt.Println(string(resolveOut))
 
-	// Search assertions
-	//searchAssertionsOpt := d.SearchRequestOptions{
-	//	Query:            "Product",
-	//	ResultType:       "assertions",
-	//	Prefix:           true,
-	//	Limit:            20,
-	//	Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
-	//	SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
-	//	NumbersOfResults: 5,
-	//	Timeout:          25,
-	//}
-	//searchAssertionsOut, err := dkg.Client.Search(searchAssertionsOpt)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(searchAssertionsOut)
+	// Search assertions ---WORKING---
+	// searchAssertionsOpt := d.SearchRequestOptions{
+	// Query:            "Product",
+	// ResultType:       "assertions",
+	// Prefix:           true,
+	// Limit:            20,
+	// Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
+	// SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
+	// NumbersOfResults: 10,
+	// Timeout:          25,
+	// }
+	// searchAssertionsOut, err := dkg.Client.Search(searchAssertionsOpt)
+	// if err != nil {
+	//     panic(err)
+	// }
+	// fmt.Println(string(searchAssertionsOut))
 
-	// Search entities
-	//searchEntitiesOpt := d.SearchRequestOptions{
-	//	Query:            "Product",
-	//	ResultType:       "entities",
-	//	Prefix:           true,
-	//	Limit:            20,
-	//	Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
-	//	SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
-	//	NumbersOfResults: 5,
-	//	Timeout:          25,
-	//}
-	//searchEntitiesOut, err := dkg.Client.Search(searchEntitiesOpt)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(searchEntitiesOut)
+	// Search entities ---WORKING---
+	// searchEntitiesOpt := d.SearchRequestOptions{
+	// Query:            "Product",
+	// ResultType:       "entities",
+	// Prefix:           true,
+	// Limit:            20,
+	// Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
+	// SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
+	// NumbersOfResults: 5,
+	// Timeout:          25,
+	// }
+	// searchEntitiesOut, err := dkg.Client.Search(searchEntitiesOpt)
+	// if err != nil {
+	//     panic(err)
+	// }
+	// fmt.Println(string(searchEntitiesOut))
 
 	// Execute sparql query on dkg ---WORKING---
 // 	q := `PREFIX schema: <http://schema.org/>
