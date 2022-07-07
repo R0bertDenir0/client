@@ -13,7 +13,6 @@ import (
 	"bytes"
 	"mime/multipart"
 	"os"
-	"log"
 	"net/http"
 	"net/url"
 	"time"
@@ -222,7 +221,7 @@ func (ac *nativeAbstractClient) Publish(options PublishOptions) ([]byte, error) 
 func (ac *nativeAbstractClient) publishRequest(options PublishRequestOptions) ([]byte, error) {
 	ac.Logger.Debug("Sending node info request")
 
-	// Make the request
+	// Set up the form to be sent
 	form := map[string]string{}
 
 	// Convert the keywords to a JSON string
@@ -251,7 +250,7 @@ func (ac *nativeAbstractClient) publishRequest(options PublishRequestOptions) ([
 	    return nil, err
 	}
 
-	// Form the request
+	// Form the URL
 	formUrl := fmt.Sprintf("%s/%s", ac.nodeBaseUrl, options.Method)
 
 	resp, err := http.Post(formUrl, ct, body)
@@ -681,7 +680,7 @@ func (ac *nativeAbstractClient) Validate(options ValidateOptions) ([]validatedTr
 	}
 
 	// Perform the validation of the nquads
-	respFinal, err := ac.performValidation(resp)
+	respFinal, err := ac.performValidation(respJson)
 	if err != nil {
 		return nil, err
 	}
@@ -699,20 +698,23 @@ func (ac *nativeAbstractClient) getProofsRequest(options ValidateOptions) ([]byt
 		return nil, errors.New("Could not convert the nquads to JSON")
 	}
 
-	// Add it to the form
-	validateForm := url.Values{}
-	validateForm.Add("nquads", string(jsonNquads))
+	// Set up the form to be sent
+	form := map[string]string{}
+
+	form["nquads"] = string(jsonNquads)
+
+
+	ct, body, err := createForm(form)
+	if err != nil {
+	    return nil, err
+	}
 
 	// Format the URL
 	formUrl := fmt.Sprintf("%s/proofs:get", ac.nodeBaseUrl)
 
-	// Create the URL
-	client := &http.Client{}
-
-	// Do the request
-	resp, err := client.PostForm(formUrl, validateForm)
+	resp, err := http.Post(formUrl, ct, body)
 	if err != nil {
-		return nil, errors.New("Could not send proofs form")
+		return nil, errors.New("Could not send proofs request form")
 	}
 
 	// Read the response into a variable
@@ -726,16 +728,19 @@ func (ac *nativeAbstractClient) getProofsRequest(options ValidateOptions) ([]byt
 }
 
 // Struct that represents an Assertion in JSON
-type AssertionType []struct {
-	AssertionID string `json:"assertionId"`
-	Proofs      []struct {
-		Triple     string `json:"triple"`
-		TripleHash string `json:"tripleHash"`
-		Proof      []struct {
-			Right string `json:"right,omitempty"`
-			Left  string `json:"left,omitempty"`
-		} `json:"proof"`
-	} `json:"proofs"`
+type AssertionType struct {
+	Status string `json:"status"`
+	Data   []struct {
+		AssertionID string `json:"assertionId"`
+		Proofs      []struct {
+			Triple     string `json:"triple"`
+			TripleHash string `json:"tripleHash"`
+			Proof      []struct {
+				Right string `json:"right,omitempty"`
+				Left  string `json:"left,omitempty"`
+			} `json:"proof"`
+		} `json:"proofs"`
+	} `json:"data"`
 }
 
 // Struct that represent a validatedTriple
@@ -752,13 +757,13 @@ func (ac *nativeAbstractClient) performValidation(assertions []byte) ([]validate
 	var out AssertionType
 
 	// Convert the JSON to the struct
-	err := json.Unmarshal([]byte(assertions), &out)
+	err := json.Unmarshal(assertions, &out)
 	if err != nil {
-		log.Fatal(err)
+		return nil, err
 	}
 
 	// Loop through all the assertions
-	for _, assertion := range out {
+	for _, assertion := range out.Data {
 		// Grab the rooHash
 		rootHash, err := ac.fetchRootHash(assertion.AssertionID)
 		if err != nil {
@@ -821,16 +826,20 @@ func (ac *nativeAbstractClient) fetchRootHash(assertionId string) (string, error
 		return "", err
 	}
 
-	resolveResponse := make([]map[string]map[string]string, 0)
+	resolveResponse := make(map[string]interface{})
 
 	// Transform response to json struct
 	if err := json.Unmarshal(result, &resolveResponse); err != nil {
-		return "", errors.New("Could not unmarshal resolve request response")
+		return "", errors.New("Could not unmarshal root hash fetch response")
 	}
 
 	// Trying to be similiar to this js line:
 	// return result.data[0][assertionId].rootHash;
-	return resolveResponse[0][assertionId]["rootHash"], err
+	// but for some reason rootHash was not present in the response?
+	// that's why dataHash was returned
+	dataHash := resolveResponse["data"].([]interface{})[0].(map[string]interface{})["assertion"].(map[string]interface{})["metadata"].(map[string]interface{})["dataHash"]
+
+	return dataHash.(string), nil
 
 }
 

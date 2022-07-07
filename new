@@ -1,0 +1,578 @@
+ △ fiverr/lukamichelson/dkg-client-v6-golang go run examples/main.go                                                                                            39s main 9h ⬡
+Search Assertions: map[@context:map[@vocab:http://schema.org/ EntitySearchResult:goog:EntitySearchResult detailedDescription:goog:detailedDescription goog:http://schema.googl
+eapis.com/ kg:http://g.co/kg resultScore:goog:resultScore] @type:ItemList itemCount:75 itemListElement:[map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop
+69u8tPcs6GrLfFB QmVf7z8TcQVUxhJuVeMfue7gACZcKNwsBCvqLafwQSJg27] result:map[@id:e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233 metadata:map[dataHash:ed13153f
+a4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d33708093c keywords:[customer earnest global product] timestamp:2022-07-06T19:
+51:36.815Z type:Product visibility:public] signature:0xef8cffa2669024d6b4ada57f85ba5db549df8cb7a1749e0185f09e245fedd51801214d6ee389ce8adbd6d73a47cbeb1f881efd0ac4e5db29b1700b5
+e3764ed7d1b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:f9c1981604bf065c2b7764a463a19cf8487f40d3d858
+e006dd532d1a98e510eb metadata:map[dataHash:e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af4c1fb0e65210b issuer:0x2f22bb04434d257ce2e90ebaed045bd204336b10 keywords:[distri
+ct national creative architect product] timestamp:2022-07-06T21:20:24.930Z type:Product visibility:public] signature:0xe35a499d2a6b44331de96f4b0ed83bbf7e16b96fed4f7ead1fb3428
+623d8f5d43d4edb840263c15ffb7c86f5e173a512e5f9cbe203e2bf7a2d55c7003ae63a171b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrL
+fFB] result:map[@id:ab36cc4aa584daed7ed8cad03f7b273f517accb60cf82a6380778174d6c256d7 metadata:map[UALs:[62a278faa7154fe68233c24d584c11d281cbaa6a0d39bd66e96efcf53b0f19db] data
+Hash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:20
+22-07-06T21:55:27.831Z type:Product] signature:0xa49e63491eff4b9a920378b5b6efdd7f03cabca74bde7b9ee91b59cca54cb2061c381f03923d8f780d3ac79bb6517c5612b9bda30c9d8c34fc0d2ca18b5c3
+6161b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:96fcff0f50f21d69a393b5cd4aa8457fcd172e2882a0417847
+7390cc4bd55102 metadata:map[UALs:[aa18f09f86dc7ef4b3ab5e31ca25c35fdfccfc2767f7e5404eec5198060b5a14] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd
+issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-06T21:57:02.415Z type:Product] signature:0x83d6333db39cd1e8367e2
+a2521b1b640c2b44a63c00d5249f2b30928b29add7d447e4ee1e60c661e1a6fababdcd7abe876721b6136fb06687bc043953ea731fb1b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNT
+QQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:70c36b1f4c098853056d593dae29e671b0c74569419f948e5b525f74a89c5d77 metadata:map[UALs:[0378c423b7f9f30be27294b3c7999599bda6
+33cd08e8963286a645e881a82495] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme execu
+tive objects product] timestamp:2022-07-06T22:01:06.917Z type:Product] signature:0xc5eb71283215ad3ad898e6c552bd0968425e7d690238a7741a6ac97060be5d644dbe5f59723d3281b561d26f5d1
+a3b2ab357b524749fabbcd411cf76903b64851b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:d23fd7a3d13eab02
+a63b2a8a198edfd15bf0a4e51a2b7968e6a34526faf5ee97 metadata:map[UALs:[0837d440b4185299f56319cec3d088977b5c515e9a0fff29639b11c8432a7d84] dataHash:ed13153fa4090eceedf6c1dd1aa030e
+c45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-06T22:02:04.353Z type:Product]
+ signature:0x80df30011fb074d67757b39bb5bdf4489d79d67ff3fbbfaa03a2459cd777ce1e346a3c157d06bd453559e7ac5aa26b44e49db058abae9889cc77dac6bf6f30381c] resultScore:0] map[@type:Asse
+rtionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:3e154d07e0a1ccce6c67670fe69fb491e77584dd8283bc0373ad007465f3f5e3 metadata:map[UALs:[cf
+220e292737ae245992cb3ea3cfa462a33b2f87fc82a50b3f9dec610a6eb50f] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee2
+9b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-06T22:10:49.785Z type:Product] signature:0x5b2cf45b606bc8a6e9962bbc58bcc934bb21808f50d44515d202ff3a1
+5ae16806c744a30ab483a4cc871535828498f86804c49da1f92e00a0c22b90718a4ec881b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfF
+B] result:map[@id:af55d130b9b265659625dec54e0b4d864c47094b6a3abf79d69e27486fc07012 metadata:map[UALs:[e5ad3988086cbada0a6ba914fdc2574bb3c86b40de1c4106ede7ca1c6ddf5532] dataHa
+sh:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022
+-07-06T22:30:16.590Z type:Product] signature:0xcf9bc395c1b0d7ef7a6d5a2546fe33e7023b530cd1045fa106bb67cbd4b426dd0736f07e9ec0d713dd481dc40469ce4f499bfae53a1c9e3d9e6d9b8378e7dfa
+b1c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:78499d56368aedb55ae936977892a82b91e5b2022fb38af0b971
+709872fceef7 metadata:map[UALs:[c6c61d04cdb2a7587c1bfa857659ee00c942118a356ef91d033e57760c149497] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd is
+suer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-06T22:33:04.917Z type:Product] signature:0x29a1ae4129271261bdc73ba
+413b4a329932daeeaf23cfddf9a82314ac9db1df6668823251b01246bf3cb11a0dda833470569afdb4ed3a2bdc86cffcf111cf6f21c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQ
+uRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:1c2caf85728c476be4ffb21785f3d1b674d997f313423236eb63cc574f83b604 metadata:map[UALs:[aae9c64b77d0162c1d6bc8e9be13d82f751f47
+68a1468bf598f7500cc720f521] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executi
+ve objects product] timestamp:2022-07-06T22:36:15.692Z type:Product] signature:0x0f27baf8deb94ba10784724a361eb37f9a7cb530877f81247c48830cce271c6217d1c40d0b3b2c85b042a5a674670
+0ae68ed404f63a460cf298145cf683c290c1c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:3c899d23f5dc4a894b
+f5cdb1c3884f28ad613e1b8e8d87ad6cf5c29f8e6ed6d9 metadata:map[UALs:[4a3f805b765ad1bdad9971ff78ad0ef53594212aaec6b7619cf374f85a0bc082] dataHash:ed13153fa4090eceedf6c1dd1aa030ec4
+5ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-06T22:37:23.503Z type:Product] s
+ignature:0x7e1b1a0b90ae42b0e912c6e06b23c7286d3e0919d240cce2f74744379b48ca1f5ed2c09e0aca455284ff08ea97a57acc7bb8b0178c72190c5737c444b06762201b] resultScore:0] map[@type:Assert
+ionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:d861a088ed54e2b9889c6415cf7663d99c8a1813346540e38b9472c9916a02cb metadata:map[UALs:[22b6
+850386e04a7404f59c7b5c3694d0893df36f0fe848b444182dd531ec2c7b] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b
+4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-06T22:38:40.033Z type:Product] signature:0x3954f766934ba6eb1bc69d0274e3c3e6fb9cbf15c7fdcb435749af06f77
+fd2a1763c8dd3e902ff87a4d8b3083cc44c195821e2bd1e56aa7c6fcf7d3be076b4331c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB]
+ result:map[@id:67df9f916da62bf87a92b8eb0b1f395c3f881669d8890aa58c383ebf2e643471 metadata:map[UALs:[2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46] dataHash
+:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-0
+7-07T06:46:37.009Z type:Product] signature:0xd241ccac990e0b1ee5de84d6932355cbad0cba0e629832a206d3ccb785aa7a10577cf8bb1d1b1f77016debd071995e5df053e1daadb55601eef9e9c89cb938871
+c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:7361d923829fb9d08e398c2040b9207ca79e1682f14678e17b20e1
+46b17880b1 metadata:map[UALs:[2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issu
+er:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-07T06:52:38.310Z type:Product] signature:0xde0eef1b1501c23bdf88a825c
+73dc98e822aeedc10284fb62b9a6dda011e2d6b01c103d5491e93c8611166b1a20bb0c82b39980836435b2988fe5687302162641b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuR
+LwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:7651097b162191f3cbd9885fc8c59edef2dc1a1f04c05dc5936cf7305c35ef3e metadata:map[UALs:[2d8824f67b1183dde7a277a92120acbdb35d6f6e
+2be1b31827b08a2597538b46] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive
+ objects product] timestamp:2022-07-07T06:55:30.432Z type:Product] signature:0x7d17df78975045838224810dec7ba8c4979d7aae8e17cc0ae9b519e1416fce3b662a91753a5f4684bc82775c24724ee
+094fb9e7b1a7a7285d97e142d658253171c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:0f820749ff1629d9960c
+dede7dc44c399b1633d5778f2f92a2a1b6fb5ceed970 metadata:map[dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2d
+c76fa3e keywords:[acme executive objects product] timestamp:2022-07-07T07:05:32.627Z type:Product] signature:0x4d789308eecdbfae10b1bb6b0ace0d1d23498fff173dba41698c4f3c4205489
+a17e57c151cb4b196ba410a50d5117ca76dd02511828ffdb1de67636c10e3f2e81b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] res
+ult:map[@id:88f8038c03589bf61d824c31c6bc6270c8dca688c05f51971d5aa4eff3f29c02 metadata:map[UALs:[fe66e157c653654c894cde0a768c7d7a0fccec9b8bd4f40941517722bedc3cd1] dataHash:ed1
+3153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-07
+T07:51:53.464Z type:Product] signature:0x5b5e217e51cf2e430cf929cfffa8ce20222b6f7a6b3109809e4e2c23f3f474f05884caef341c7b9c65b584b55c3586f47f712b40af538cb570851c549c4e57b11c] r
+esultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:50d3de3207ab163c9cbfa9d615651b9194320b843582bfe827dce00391
+ab2b92 metadata:map[UALs:[ebbd03bbeb0b20b637b435448e77267baf9a1d991ce107c961084ac855cdf006] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0
+x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-07T08:17:37.326Z type:Product] signature:0x5c0f148f88cb84d19c18beb9d3c6c
+8e764c74b7200930fdfc441a44cee7ebd1f4cb0acf9d8c085e2bfaf624effaee69e7b4d03326c19f9f413c785d2d72320f81c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR8
+81MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:b958a60d40710ae02057098e3608b68bcd0a00b7c2167b0040146ff2519e3758 metadata:map[UALs:[5d20ff73fbd52b81fd713a5e2a5755f3b576aab44e16
+7df28d124e958f6ad620] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive obj
+ects product] timestamp:2022-07-07T08:18:46.159Z type:Product] signature:0xa83957954fc2417ef8d7c67bf3fa947a3472a4dc56d22d7639a33dbc04a8c3fe5b122b8d83fc5e9f267fec38fb1f6bcd7a5
+c4e47da5fdab7af947236959a19541c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB] result:map[@id:78cdb5afc2a1b69e30ac29ed
+59cc81045eb3c6768014e1be67af66055b14b3ac metadata:map[UALs:[94f898109aa1f459d57b9a23da5930b24a709fd5cb2c425ef8ffd9adf6e57341] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c
+2f9510c64a2014f1c6424e7dd issuer:0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e keywords:[acme executive objects product] timestamp:2022-07-07T08:19:16.398Z type:Product] signatu
+re:0xa34c75db2b0e9651dabe78351b2903676787ea25d11b6c5696ef3ea2202a7d56268edc804a9e21bdea74a2d95f7965db0ef057990cfaa2f0f0b6bce5f6ff0cc21b] resultScore:0] map[@type:AssertionSea
+rchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:6503b11895886553b553309e7dcb08ddc83853629ad306b060358e6061e1724a metadata:map[UALs:[e817cfce51
+d3565c418792b02343aae1e32e010991fa4d1a1efc0a3d27614aa1] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d3370
+8093c keywords:[deshawn human national product] timestamp:2022-07-02T06:56:14.461Z type:Product visibility:public] signature:0xa24dd515a3101baf23c56c9af21c7e7488a43b4a4f4180d
+c7c8a1a48e86c9517440e50afdb8a99b1a4ab1403696e89559ee240161fdbb5b3fe3be72296ab14831c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371
+vHfhNPoan62 QmVf7z8TcQVUxhJuVeMfue7gACZcKNwsBCvqLafwQSJg27] result:map[@id:2efaefccdaa307d7cfc9d70fbebd270aa6f29b5ebfd08211122f95ed752e8a2c metadata:map[UALs:[a525e85eb89ecef
+6ecf12aa7ba58b2780c6c29bcfa5635e2a963465e9fb0c3be] dataHash:996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac issuer:0x2f22bb04434d257ce2e90ebaed045bd204336b10
+ keywords:[human product senior] timestamp:2022-07-02T07:17:33.406Z type:Product visibility:public] signature:0xcdce53f0b82d94021ed1cdf1cfa906cce0b0d1e8a32599e9a7bb36c7b789e7
+e42c6c4b78c081c0f11caf048f73b63f3ad9bb6f32aa7390bfcc8449970d2224a01b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] re
+sult:map[@id:22c1f90457a12813282174c61131b60a5702cdc80a45ffcda324cd43c7baed09 metadata:map[UALs:[b2a5b3ff3c7edb970b58e961e24f74e28171987c72c32478db915ef6945e63b4] dataHash:99
+6cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac issuer:0x2f22bb04434d257ce2e90ebaed045bd204336b10 keywords:[human principal product] timestamp:2022-07-02T08:14
+:19.403Z type:Product visibility:public] signature:0x5b830a095adb3f73881ac47c8861399c8086c8988b4d11d2f568271ae95931d91fee6527ca40d0ab0487529ec645417e91627a879009c9900faec1691
+c713b081c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62 QmVf7z8TcQVUxhJuVeMfue7gACZcKNwsBCvqLafwQSJg27] result:map[@id
+:ac709c2155ef31dad3fec4b5c6c6fc0182f30d5babc1f3683e3c7cffd8e11e4d metadata:map[UALs:[a29044230828f1f8af3183c25a864bc708fcbfbac5739eb0e20b15546481b3b1] dataHash:ed13153fa4090e
+ceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d33708093c keywords:[future product sallie senior] timestamp:2022-07-02T04:08:04.630
+Z type:Product visibility:public] signature:0x174f666c97bf3b00327bea13df0f9db29aa9bb856b9485be27fa4993a2460a8509a22d4447552f205e26c564dcd393682221b63679e245acde28a9247db17e04
+1b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:a4116b5c3e9bdea8697c30ad3f655f2ffeba2f1ec98081b43aeb3
+dc0cb656829 metadata:map[dataHash:6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e1bb9f13c93d5958 issuer:0xedb2e83b2395da0bbb73d5384ae8cf632a84654d keywords:[ben andrews, pi
+a o'meadhra johan mÃ¥rd product] timestamp:2022-07-02T09:44:18.717Z type:Movie visibility:public] signature:0xb8303790e49fad5c0a76bedb62628f989447222ff13d125d60acea91b1a01b7f
+3a6843ac808cfa0e53de9113a5dbc42f38205cd1dff187a24add9be7b4030c161b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] resu
+lt:map[@id:b89d2b65448e04008cfb4ee9d1e13f27892184842859e05a7e85175b79ab4571 metadata:map[UALs:[8a6c1a2cda9dc48a00e8db8a3cada05c82c4464226c318297a80a27f2756d5c4] dataHash:ed13
+153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d33708093c keywords:[central forward product savanna] timestamp:2022-07-02
+T09:44:24.261Z type:Product visibility:public] signature:0x344b5e6a03aee1a67a01995fc9c3d9dfd61aa2fd394f11c18964eba28147fd7904a23e8d53a37bcbe847249e1e1cb3e023303c6bc15943e016d
+b17914995848e1c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:2dd7b9d369698eddd7bca6970fbfbf249bf2ea88
+47c1eb587b56754bba8c6b31 metadata:map[UALs:[2033410644ec29b279397dc2e5f23a8151cb1d4b968db2bd6be1406a3b6004d6] dataHash:e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af4c1f
+b0e65210b issuer:0xf4f34a317c7290aca6d76a5b8cef83d375c7dedd keywords:[corporate solutions planner dynamic functionality associate product] timestamp:2022-07-01T19:01:29.928Z
+type:Product visibility:public] signature:0xbd75e5e24869a9be0ce4fef982bb29fed7e6b09672d483ee06c189f7ed6e9e5d0f45aa21d23c6a69410b9ed52d5c22946119c19d907e61f4071d21f2ea5757f91b
+] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:9ddcc7d14341378064b6dd9d96ef13574aed77489d70c430369a4fd
+7e144fbcc metadata:map[UALs:[c4c3210c7f84b63811df6195d9831580cad95f14ec5c26e3e5469822b0505390] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issue
+r:0x2fe6cea6893f97834d59e7fb963e88d33708093c keywords:[dameon future principal product] timestamp:2022-07-01T23:27:47.870Z type:Product visibility:public] signature:0xca0f0e0
+0a7a4edcf3599068777b4c047c9e5409e4f84776c7708a3770991945115b3bb6e3a61b2bbf06bd9a99abfcbbc2a7269e6a606588af3001ffda65c0cc81b] resultScore:0] map[@type:AssertionSearchResult no
+des:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:aabe0c552e50bcd5ec6c80e5d55d95dc79b26efb1312c2c42e0fa0686fba64ec metadata:map[dataHash:6916d94ce80b5b6224f
+f3f85374f456918f8420ba1213398e1bb9f13c93d5958 issuer:0x83814b0054b0e8deca58e2ec4c7b4a7167377857 keywords:[ben andrews, pia o'meadhra johan mÃ¥rd product] timestamp:2022-07-01
+T23:45:25.900Z type:Movie visibility:public] signature:0x7ff7a84218a972b47feefe50ddcac7cc9a090beb0d70ab396139f2089bb8fa8c28e541efe544998164d678863ec60c4d630476a9582a310437dc2
+765b049a2551c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:98beed430ac0922dadf8efc7bb7635c31bed59fdc8
+110d7cb2cd4396bb34b530 metadata:map[UALs:[bd46ca0dde0c1e0e11167d39b50c2a70e12f392c6142b55a75d95c36e7bce687] dataHash:996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e5
+9c4ccac issuer:0x2f22bb04434d257ce2e90ebaed045bd204336b10 keywords:[corporate human product] timestamp:2022-07-02T10:07:51.618Z type:Product visibility:public] signature:0xf8
+9d97d42b3bb6a29549c72a930c7bf67a185d6b0d5fb47c6234e23df50835e0272a8a751da98430fc87e19b816c4fd5f7ce8ed02b57347c77cac5b0c296e7451c] resultScore:0] map[@type:AssertionSearchResu
+lt nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:80fd74ae949b5dce801b6d988aeb38fb61f7a7b2573d9bdc39f9c89beaed9206 metadata:map[UALs:[dfebbcc9955067d89
+bf52e2ea2760efe819629237536d31eb73ef97f35c5859f] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d33708093c k
+eywords:[arch direct international product] timestamp:2022-07-01T19:43:34.112Z type:Product visibility:public] signature:0xae5914ae64dcc396dd91103996b8774ab40bb26ee379f716170
+13d5846dc58ec5e0caeb1baec32f1b72e4ae3afbe9ebd966481f7eebbf3e7b3566af9e9f58dd81c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfh
+NPoan62] result:map[@id:b2f5cf81a7928200931b628411dcede8de346b8ff6f98ba857ca29de5a9292d3 metadata:map[dataHash:6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e1bb9f13c93d595
+8 issuer:0xbe84c954bbc37e3e62a7420cf395979a2b86d129 keywords:[ben andrews, pia o'meadhra johan mÃ¥rd product] timestamp:2022-07-02T20:52:25.601Z type:Movie visibility:public]
+ signature:0x0cb4772e2c57d7b241dbf3d3164f15c96dd29dca943f3a4475bceac66b5ce8e31b57c7313ebd918ad53dfbccec49b5bfa99b74fd8c67d96f66cbfcfdc74eea8d1c] resultScore:0] map[@type:Asse
+rtionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:6bf69ea363161004c09e33cb0d2df26458e50436c843a6df48e20150cc84009c metadata:map[UALs:[50
+4c8c46f0cd1d72b259d35397e04f016d0e9095ed6b430189edb4a9929c5e3c] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963
+e88d33708093c keywords:[district dynamic natalia product] timestamp:2022-07-02T11:36:33.049Z type:Product visibility:public] signature:0xc849b6fe57aff7f9a944f3ab86eff42a232c6
+254a3c88410907d636ab33c45d274c48d9b0add70799e36a2b6917204f121166141fd80a229118188507601091d1c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZr
+LXbXzPU371vHfhNPoan62] result:map[@id:cccfa94735fba343f113c94867fe5a10b9801e4a2d4556678cc83a31fffea6b1 metadata:map[dataHash:6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e
+1bb9f13c93d5958 issuer:0x9a1327ce665a94f20a4e0fa4b1531ba94e7425ee keywords:[ben andrews, pia o'meadhra johan mÃ¥rd product] timestamp:2022-07-02T21:01:32.627Z type:Movie visi
+bility:public] signature:0x4f0269a0cc3d219fee08a25f6b0701792c1bb8a958e15eeab9600ea15505a30e1aac59099ad47aba7bc58f365ffbeac9faf319abfcad6963d1620c4d403a18d11c] resultScore:0]
+map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:f97a3a4aeabe6cd4378e0c188e312d3f99b9fdea0880ad6343c1fa1c50d0b50e metadat
+a:map[UALs:[a2bcfc3592092fbece10ca6bab282faf2d0d64b1f595ae133bd17f706ff20d35] dataHash:996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac issuer:0x2f22bb04434d2
+57ce2e90ebaed045bd204336b10 keywords:[forward national product] timestamp:2022-07-02T18:38:47.870Z type:Product visibility:public] signature:0x73b4845b76897e4bde69a2694df97bd
+cfbb1e0a77f1ea2d29ad372c8661849e778970699fa130af1f4f58a2b3b0a64e00531948dfba1d2c15493b3a892f3c74a1b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3z
+NiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:4d5cd570bf58bf628638a968384e8b6052f4ddcc7a12351c9a184bc3fde06113 metadata:map[dataHash:e9e585341951cef87c635c0ab09a707f7eca7ef1340
+2929f4af4c1fb0e65210b issuer:0xf4f34a317c7290aca6d76a5b8cef83d375c7dedd keywords:[chief research consultant global implementation strategist internal program producer product
+] timestamp:2022-07-03T08:34:49.370Z type:Product visibility:public] signature:0x64ed38b7230e3f2543cb7b96e63ee73ac31cb62dc80f8026062371f028ae310e2090190d664d149635ba1be85e0d0
+7e1f479d70d8a2aaf9705c26069f3b745661b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:b90d1e689fe1b1ad29
+152c7a68fc6122d6112a08488f08635b35aced1d2100fe metadata:map[UALs:[cc0462e381db02a8e7393a3342b5d79067a8d0daca45f915c8df0801aae38daf] dataHash:996cdaa736739fa67f25c90465cda922b
+36270ae007f540beb02843e59c4ccac issuer:0x2f22bb04434d257ce2e90ebaed045bd204336b10 keywords:[forward product regional] timestamp:2022-07-02T12:58:10.960Z type:Product visibili
+ty:public] signature:0x523c3c92caf292e3ee29dacb855437fadcbb0d0a6652c8e80301ed9545fd7f85664fb1b8461255cc1311d034e2c8837e96656e40eef20faf774eae07353cf6d41b] resultScore:0] map[
+@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62 QmVf7z8TcQVUxhJuVeMfue7gACZcKNwsBCvqLafwQSJg27] result:map[@id:8b918200794480a6b915c8d548a03
+391b031e6a405f57e158fabb05da4b93b61 metadata:map[UALs:[02991e99799b1838a7ec1844958ac62fca45a1dd5cb725d6e37e1726ce873f98] dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f951
+0c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d33708093c keywords:[future global jaunita product] timestamp:2022-07-03T09:13:01.364Z type:Product visibility:pub
+lic] signature:0x59feea2ea8701ffb8731012448f72e727b637cc7c2f8a01f77b0035ff6df8ffb3fa95ab36530cc0001672eef27e74e16fa6642718c7395f7d7d45da689d6f3921c] resultScore:0] map[@type:
+AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62 QmVf7z8TcQVUxhJuVeMfue7gACZcKNwsBCvqLafwQSJg27] result:map[@id:fc9e80c524ab579c9f9ceb2316e621cd20c
+13056b8bdf838b353f2111c7b6466 metadata:map[UALs:[4cddc350ba7655af482becd7de37ea8e6639ed45b47533d50c77004c5c17d11a] dataHash:e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4a
+f4c1fb0e65210b issuer:0xf4f34a317c7290aca6d76a5b8cef83d375c7dedd keywords:[chief response developer customer division supervisor product] timestamp:2022-07-03T23:43:13.865Z t
+ype:Product visibility:public] signature:0xbe0d8084010126e6252fc2c1443e94c2493b4202d594944b1452468b3cc4e7ae3e83a5bb8abfd4c88667561c5d290f37aa6d7c1c66cad95f3a2a110c4e5135561c]
+ resultScore:0] map[@type:AssertionSearchResult nodes:[QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62] result:map[@id:3ed5e7468250633d539daa0b35163b4a8fe244b536f9ab59a124b88d
+351038fb metadata:map[UALs:[7e49de16130043cf0211ad70791f2f9f023bbb113aecdc1f231cfa12604f82e2] dataHash:ec9efc9789b48ffab5825eebc6fddee5c21726dfa9de410f2c8423b2fae2f55b issuer
+:0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b keywords:[product] timestamp:2022-07-04T05:17:41.024Z type:Store visibility:public] signature:0x35ed7758ae0831a65ebbaa09f98bd9ab7e
+ae7fa6d83da73b04b59a8a4499fbd377ecd8a88c81b4b4d193f4c389b616bb464eca38e01f5471551d5d5d694bbc1a1c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQcY1XgxvSALM8bRupeoV
+nRHVFv1FBPGrntY97X9w49oC] result:map[@id:6c5caf128e3b9ffd8b03e04941051e2c69babdf5460504ac1b9624c1ecdb8bdb metadata:map[dataHash:a370329ac571196cc5484f0e05b114b766338c7f0ffa28
+40f78c8894ada2163d issuer:0xbafb9fec64573b5a4359eb06f738c989298d07cf keywords:[ashish varma product steve kasan, sachin mahashi] timestamp:2022-05-04T11:47:04.265Z type:Movie
+ visibility:public] signature:0x922ec00e9e400fa4d4a3f0160bc312b18a334a4df1045ff9687fe6ce3141b8743da35ac841ce49b8b419386448d6be6079d813aff73b2a9cef5ee073d59bd07e1b] resultScor
+e:0] map[@type:AssertionSearchResult nodes:[QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC] result:map[@id:97983404c38c3a5b601d7df431a333117986ad2bfce86c36278370453a2ab12e me
+tadata:map[dataHash:a370329ac571196cc5484f0e05b114b766338c7f0ffa2840f78c8894ada2163d issuer:0x3dab6801db61d234089c29c9c0128c2d0194928a keywords:[ashish varma product steve ka
+san, sachin mahashi] timestamp:2022-05-05T09:52:07.851Z type:Movie visibility:public] signature:0xedaa4a67e8378943028bd8e54d6d72c48e0d47bd1c1e9849d8078f606dd21dd9342bf9f5cfc9
+e483863dcf83311c13bc78f557553aab9201821a6acdc8b352111b] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC] result:map[@id:b
+2857b565b634b54868789a73701febea85f8fac94634c4ba629bd0bb4d41df6 metadata:map[UALs:[ed7733f074bab307c0f22536f224858ff69bfa50c1b6d2b8309497ce79c16af6] dataHash:c5a7a60b1f4a5559
+123573b7a2385c3db88a751e0df88c6607acffd0a83807e6 issuer:0x7ca1e583b03bc6b64848d1b10c1b528ef5383899 keywords:[category:meissen porcelain ehrenfried walther von tschirnhaus ger
+many kingdom of saxony meissen meissen manufactory metropolitan museum of art porcelain product utensil] timestamp:2022-05-05T06:35:55.125Z type:default visibility:public] si
+gnature:0x79d6a0d5ab67096d6da0b9b0bd79f1b5010b25a4503c8a903f7ada62e2cb683e7f1b785b2103fa3b13af069fdb3df8a5a60700dfff19c106ebeb5d29946a9d741b] resultScore:0] map[@type:Asserti
+onSearchResult nodes:[QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC] result:map[@id:b5f360059d65d774738a47c633af5c03ef215c4722dcbe1604049fc0d5e6cd9f metadata:map[UALs:[ed773
+3f074bab307c0f22536f224858ff69bfa50c1b6d2b8309497ce79c16af6] dataHash:c5a7a60b1f4a5559123573b7a2385c3db88a751e0df88c6607acffd0a83807e6 issuer:0x7ca1e583b03bc6b64848d1b10c1b52
+8ef5383899 keywords:[category:meissen porcelain ehrenfried walther von tschirnhaus germany kingdom of saxony meissen meissen manufactory metropolitan museum of art porcelain
+product utensil] timestamp:2022-05-05T06:40:27.601Z type:default visibility:public] signature:0x964126fdf867f975f5aef1498dcbd055fac34f47950cc9e9a74d51bfc50a5402764cbbef6b62ea
+7e94473ca15137d1a797112c7a6c065515e0572919361be2411c] resultScore:0] map[@type:AssertionSearchResult nodes:[QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC] result:map[@id:7d8
+449c42d096ffb49e7023738509f957bbab77fb67ca528031318f23d4aafac metadata:map[dataHash:a370329ac571196cc5484f0e05b114b766338c7f0ffa2840f78c8894ada2163d issuer:0x7fe017fb82c2c70d
+ △ fiverr/lukamichelson/dkg-client-v6-golang go run examples/main.go                                                                                            40s main 9h ⬡
+Search Assertions: {"@context":{"@vocab":"http://schema.org/","goog":"http://schema.googleapis.com/","resultScore":"goog:resultScore","detailedDescription":"goog:detailedDesc
+ription","EntitySearchResult":"goog:EntitySearchResult","kg":"http://g.co/kg"},"@type":"ItemList","itemCount":20,"itemListElement":[{"@type":"AssertionSearchResult","result":
+{"@id":"e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233","metadata":{"keywords":["customer","earnest","global","product"],"dataHash":"ed13153fa4090eceedf6c1d
+d1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-06T19:51:36.815Z","type":"Product","visibility":"public"
+},"signature":"0xef8cffa2669024d6b4ada57f85ba5db549df8cb7a1749e0185f09e245fedd51801214d6ee389ce8adbd6d73a47cbeb1f881efd0ac4e5db29b1700b5e3764ed7d1b"},"nodes":["QmeCVCyNTQQuRL
+wR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"f9c1981604bf065c2b7764a463a19cf8487f40d3d858e006dd532d1a98e510eb","metad
+ata":{"keywords":["district","national creative architect","product"],"dataHash":"e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af4c1fb0e65210b","issuer":"0x2f22bb04434d25
+7ce2e90ebaed045bd204336b10","timestamp":"2022-07-06T21:20:24.930Z","type":"Product","visibility":"public"},"signature":"0xe35a499d2a6b44331de96f4b0ed83bbf7e16b96fed4f7ead1fb3
+428623d8f5d43d4edb840263c15ffb7c86f5e173a512e5f9cbe203e2bf7a2d55c7003ae63a171b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"ab36cc4aa584daed7ed8cad03f7b273f517accb60cf82a6380778174d6c256d7","metadata":{"keywords":["acme","executive objects","product"],"UALs":["62a2
+78faa7154fe68233c24d584c11d281cbaa6a0d39bd66e96efcf53b0f19db"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-06T21:55:27.831Z","type":"Product"},"signature":"0xa49e63491eff4b9a920378b5b6efdd7f03cabca74bde7b9ee91b59cca54cb2061c381f03923d8f780
+d3ac79bb6517c5612b9bda30c9d8c34fc0d2ca18b5c36161b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"96fcff0f50f21d69a393b5cd4aa8457fcd172e2882a04178477390cc4bd55102","metadata":{"keywords":["acme","executive objects","product"],"UALs":["aa18f09f86dc7ef4b3ab5e31ca25c35fd
+fccfc2767f7e5404eec5198060b5a14"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timesta
+mp":"2022-07-06T21:57:02.415Z","type":"Product"},"signature":"0x83d6333db39cd1e8367e2a2521b1b640c2b44a63c00d5249f2b30928b29add7d447e4ee1e60c661e1a6fababdcd7abe876721b6136fb06
+687bc043953ea731fb1b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"70c36b1f4c098853056d593da
+e29e671b0c74569419f948e5b525f74a89c5d77","metadata":{"keywords":["acme","executive objects","product"],"UALs":["0378c423b7f9f30be27294b3c7999599bda633cd08e8963286a645e881a824
+95"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:01:06.917Z
+","type":"Product"},"signature":"0xc5eb71283215ad3ad898e6c552bd0968425e7d690238a7741a6ac97060be5d644dbe5f59723d3281b561d26f5d1a3b2ab357b524749fabbcd411cf76903b64851b"},"nodes
+":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d23fd7a3d13eab02a63b2a8a198edfd15bf0a4e51a2b7968e6a345
+26faf5ee97","metadata":{"keywords":["acme","executive objects","product"],"UALs":["0837d440b4185299f56319cec3d088977b5c515e9a0fff29639b11c8432a7d84"],"dataHash":"ed13153fa409
+0eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:02:04.353Z","type":"Product"},"signatur
+e":"0x80df30011fb074d67757b39bb5bdf4489d79d67ff3fbbfaa03a2459cd777ce1e346a3c157d06bd453559e7ac5aa26b44e49db058abae9889cc77dac6bf6f30381c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqy
+W5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3e154d07e0a1ccce6c67670fe69fb491e77584dd8283bc0373ad007465f3f5e3","metadata":{"keyw
+ords":["acme","executive objects","product"],"UALs":["cf220e292737ae245992cb3ea3cfa462a33b2f87fc82a50b3f9dec610a6eb50f"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f
+9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:10:49.785Z","type":"Product"},"signature":"0x5b2cf45b606bc8a6e9962bb
+c58bcc934bb21808f50d44515d202ff3a15ae16806c744a30ab483a4cc871535828498f86804c49da1f92e00a0c22b90718a4ec881b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resu
+ltScore":0},{"@type":"AssertionSearchResult","result":{"@id":"af55d130b9b265659625dec54e0b4d864c47094b6a3abf79d69e27486fc07012","metadata":{"keywords":["acme","executive obje
+cts","product"],"UALs":["e5ad3988086cbada0a6ba914fdc2574bb3c86b40de1c4106ede7ca1c6ddf5532"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","iss
+uer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:30:16.590Z","type":"Product"},"signature":"0xcf9bc395c1b0d7ef7a6d5a2546fe33e7023b530cd1045fa106bb
+67cbd4b426dd0736f07e9ec0d713dd481dc40469ce4f499bfae53a1c9e3d9e6d9b8378e7dfab1c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"78499d56368aedb55ae936977892a82b91e5b2022fb38af0b971709872fceef7","metadata":{"keywords":["acme","executive objects","product"],"UALs":["c6c6
+1d04cdb2a7587c1bfa857659ee00c942118a356ef91d033e57760c149497"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:33:04.917Z","type":"Product"},"signature":"0x29a1ae4129271261bdc73ba413b4a329932daeeaf23cfddf9a82314ac9db1df6668823251b01246bf
+3cb11a0dda833470569afdb4ed3a2bdc86cffcf111cf6f21c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"1c2caf85728c476be4ffb21785f3d1b674d997f313423236eb63cc574f83b604","metadata":{"keywords":["acme","executive objects","product"],"UALs":["aae9c64b77d0162c1d6bc8e9be13d82f7
+51f4768a1468bf598f7500cc720f521"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timesta
+mp":"2022-07-06T22:36:15.692Z","type":"Product"},"signature":"0x0f27baf8deb94ba10784724a361eb37f9a7cb530877f81247c48830cce271c6217d1c40d0b3b2c85b042a5a6746700ae68ed404f63a460
+cf298145cf683c290c1c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3c899d23f5dc4a894bf5cdb1c
+3884f28ad613e1b8e8d87ad6cf5c29f8e6ed6d9","metadata":{"keywords":["acme","executive objects","product"],"UALs":["4a3f805b765ad1bdad9971ff78ad0ef53594212aaec6b7619cf374f85a0bc0
+82"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:37:23.503Z
+","type":"Product"},"signature":"0x7e1b1a0b90ae42b0e912c6e06b23c7286d3e0919d240cce2f74744379b48ca1f5ed2c09e0aca455284ff08ea97a57acc7bb8b0178c72190c5737c444b06762201b"},"nodes
+":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d861a088ed54e2b9889c6415cf7663d99c8a1813346540e38b9472
+c9916a02cb","metadata":{"keywords":["acme","executive objects","product"],"UALs":["22b6850386e04a7404f59c7b5c3694d0893df36f0fe848b444182dd531ec2c7b"],"dataHash":"ed13153fa409
+0eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:38:40.033Z","type":"Product"},"signatur
+e":"0x3954f766934ba6eb1bc69d0274e3c3e6fb9cbf15c7fdcb435749af06f77fd2a1763c8dd3e902ff87a4d8b3083cc44c195821e2bd1e56aa7c6fcf7d3be076b4331c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqy
+W5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"67df9f916da62bf87a92b8eb0b1f395c3f881669d8890aa58c383ebf2e643471","metadata":{"keyw
+ords":["acme","executive objects","product"],"UALs":["2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f
+9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:46:37.009Z","type":"Product"},"signature":"0xd241ccac990e0b1ee5de84d
+6932355cbad0cba0e629832a206d3ccb785aa7a10577cf8bb1d1b1f77016debd071995e5df053e1daadb55601eef9e9c89cb938871c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resu
+ltScore":0},{"@type":"AssertionSearchResult","result":{"@id":"7361d923829fb9d08e398c2040b9207ca79e1682f14678e17b20e146b17880b1","metadata":{"keywords":["acme","executive obje
+cts","product"],"UALs":["2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","iss
+uer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:52:38.310Z","type":"Product"},"signature":"0xde0eef1b1501c23bdf88a825c73dc98e822aeedc10284fb62b9a
+6dda011e2d6b01c103d5491e93c8611166b1a20bb0c82b39980836435b2988fe5687302162641b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"7651097b162191f3cbd9885fc8c59edef2dc1a1f04c05dc5936cf7305c35ef3e","metadata":{"keywords":["acme","executive objects","product"],"UALs":["2d88
+24f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:55:30.432Z","type":"Product"},"signature":"0x7d17df78975045838224810dec7ba8c4979d7aae8e17cc0ae9b519e1416fce3b662a91753a5f4684b
+c82775c24724ee094fb9e7b1a7a7285d97e142d658253171c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"0f820749ff1629d9960cdede7dc44c399b1633d5778f2f92a2a1b6fb5ceed970","metadata":{"keywords":["acme","executive objects","product"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030
+ △ fiverr/lukamichelson/dkg-client-v6-golang go run examples/main.go                                                                                           39s main 10h ⬡
+Search Assertions: {"@context":{"@vocab":"http://schema.org/","goog":"http://schema.googleapis.com/","resultScore":"goog:resultScore","detailedDescription":"goog:detailedDesc
+ription","EntitySearchResult":"goog:EntitySearchResult","kg":"http://g.co/kg"},"@type":"ItemList","itemCount":60,"itemListElement":[{"@type":"AssertionSearchResult","result":
+{"@id":"e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233","metadata":{"keywords":["customer","earnest","global","product"],"dataHash":"ed13153fa4090eceedf6c1d
+d1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-06T19:51:36.815Z","type":"Product","visibility":"public"
+},"signature":"0xef8cffa2669024d6b4ada57f85ba5db549df8cb7a1749e0185f09e245fedd51801214d6ee389ce8adbd6d73a47cbeb1f881efd0ac4e5db29b1700b5e3764ed7d1b"},"nodes":["QmeCVCyNTQQuRL
+wR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"f9c1981604bf065c2b7764a463a19cf8487f40d3d858e006dd532d1a98e510eb","metad
+ata":{"keywords":["district","national creative architect","product"],"dataHash":"e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af4c1fb0e65210b","issuer":"0x2f22bb04434d25
+7ce2e90ebaed045bd204336b10","timestamp":"2022-07-06T21:20:24.930Z","type":"Product","visibility":"public"},"signature":"0xe35a499d2a6b44331de96f4b0ed83bbf7e16b96fed4f7ead1fb3
+428623d8f5d43d4edb840263c15ffb7c86f5e173a512e5f9cbe203e2bf7a2d55c7003ae63a171b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"ab36cc4aa584daed7ed8cad03f7b273f517accb60cf82a6380778174d6c256d7","metadata":{"keywords":["acme","executive objects","product"],"UALs":["62a2
+78faa7154fe68233c24d584c11d281cbaa6a0d39bd66e96efcf53b0f19db"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-06T21:55:27.831Z","type":"Product"},"signature":"0xa49e63491eff4b9a920378b5b6efdd7f03cabca74bde7b9ee91b59cca54cb2061c381f03923d8f780
+d3ac79bb6517c5612b9bda30c9d8c34fc0d2ca18b5c36161b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"96fcff0f50f21d69a393b5cd4aa8457fcd172e2882a04178477390cc4bd55102","metadata":{"keywords":["acme","executive objects","product"],"UALs":["aa18f09f86dc7ef4b3ab5e31ca25c35fd
+fccfc2767f7e5404eec5198060b5a14"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timesta
+mp":"2022-07-06T21:57:02.415Z","type":"Product"},"signature":"0x83d6333db39cd1e8367e2a2521b1b640c2b44a63c00d5249f2b30928b29add7d447e4ee1e60c661e1a6fababdcd7abe876721b6136fb06
+687bc043953ea731fb1b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"70c36b1f4c098853056d593da
+e29e671b0c74569419f948e5b525f74a89c5d77","metadata":{"keywords":["acme","executive objects","product"],"UALs":["0378c423b7f9f30be27294b3c7999599bda633cd08e8963286a645e881a824
+95"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:01:06.917Z
+","type":"Product"},"signature":"0xc5eb71283215ad3ad898e6c552bd0968425e7d690238a7741a6ac97060be5d644dbe5f59723d3281b561d26f5d1a3b2ab357b524749fabbcd411cf76903b64851b"},"nodes
+":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d23fd7a3d13eab02a63b2a8a198edfd15bf0a4e51a2b7968e6a345
+26faf5ee97","metadata":{"keywords":["acme","executive objects","product"],"UALs":["0837d440b4185299f56319cec3d088977b5c515e9a0fff29639b11c8432a7d84"],"dataHash":"ed13153fa409
+0eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:02:04.353Z","type":"Product"},"signatur
+e":"0x80df30011fb074d67757b39bb5bdf4489d79d67ff3fbbfaa03a2459cd777ce1e346a3c157d06bd453559e7ac5aa26b44e49db058abae9889cc77dac6bf6f30381c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqy
+W5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3e154d07e0a1ccce6c67670fe69fb491e77584dd8283bc0373ad007465f3f5e3","metadata":{"keyw
+ords":["acme","executive objects","product"],"UALs":["cf220e292737ae245992cb3ea3cfa462a33b2f87fc82a50b3f9dec610a6eb50f"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f
+9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:10:49.785Z","type":"Product"},"signature":"0x5b2cf45b606bc8a6e9962bb
+c58bcc934bb21808f50d44515d202ff3a15ae16806c744a30ab483a4cc871535828498f86804c49da1f92e00a0c22b90718a4ec881b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resu
+ltScore":0},{"@type":"AssertionSearchResult","result":{"@id":"af55d130b9b265659625dec54e0b4d864c47094b6a3abf79d69e27486fc07012","metadata":{"keywords":["acme","executive obje
+cts","product"],"UALs":["e5ad3988086cbada0a6ba914fdc2574bb3c86b40de1c4106ede7ca1c6ddf5532"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","iss
+uer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:30:16.590Z","type":"Product"},"signature":"0xcf9bc395c1b0d7ef7a6d5a2546fe33e7023b530cd1045fa106bb
+67cbd4b426dd0736f07e9ec0d713dd481dc40469ce4f499bfae53a1c9e3d9e6d9b8378e7dfab1c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"78499d56368aedb55ae936977892a82b91e5b2022fb38af0b971709872fceef7","metadata":{"keywords":["acme","executive objects","product"],"UALs":["c6c6
+1d04cdb2a7587c1bfa857659ee00c942118a356ef91d033e57760c149497"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:33:04.917Z","type":"Product"},"signature":"0x29a1ae4129271261bdc73ba413b4a329932daeeaf23cfddf9a82314ac9db1df6668823251b01246bf
+3cb11a0dda833470569afdb4ed3a2bdc86cffcf111cf6f21c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"1c2caf85728c476be4ffb21785f3d1b674d997f313423236eb63cc574f83b604","metadata":{"keywords":["acme","executive objects","product"],"UALs":["aae9c64b77d0162c1d6bc8e9be13d82f7
+51f4768a1468bf598f7500cc720f521"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timesta
+mp":"2022-07-06T22:36:15.692Z","type":"Product"},"signature":"0x0f27baf8deb94ba10784724a361eb37f9a7cb530877f81247c48830cce271c6217d1c40d0b3b2c85b042a5a6746700ae68ed404f63a460
+cf298145cf683c290c1c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3c899d23f5dc4a894bf5cdb1c
+3884f28ad613e1b8e8d87ad6cf5c29f8e6ed6d9","metadata":{"keywords":["acme","executive objects","product"],"UALs":["4a3f805b765ad1bdad9971ff78ad0ef53594212aaec6b7619cf374f85a0bc0
+82"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:37:23.503Z
+","type":"Product"},"signature":"0x7e1b1a0b90ae42b0e912c6e06b23c7286d3e0919d240cce2f74744379b48ca1f5ed2c09e0aca455284ff08ea97a57acc7bb8b0178c72190c5737c444b06762201b"},"nodes
+":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d861a088ed54e2b9889c6415cf7663d99c8a1813346540e38b9472
+c9916a02cb","metadata":{"keywords":["acme","executive objects","product"],"UALs":["22b6850386e04a7404f59c7b5c3694d0893df36f0fe848b444182dd531ec2c7b"],"dataHash":"ed13153fa409
+0eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:38:40.033Z","type":"Product"},"signatur
+e":"0x3954f766934ba6eb1bc69d0274e3c3e6fb9cbf15c7fdcb435749af06f77fd2a1763c8dd3e902ff87a4d8b3083cc44c195821e2bd1e56aa7c6fcf7d3be076b4331c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqy
+W5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"67df9f916da62bf87a92b8eb0b1f395c3f881669d8890aa58c383ebf2e643471","metadata":{"keyw
+ords":["acme","executive objects","product"],"UALs":["2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f
+9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:46:37.009Z","type":"Product"},"signature":"0xd241ccac990e0b1ee5de84d
+6932355cbad0cba0e629832a206d3ccb785aa7a10577cf8bb1d1b1f77016debd071995e5df053e1daadb55601eef9e9c89cb938871c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resu
+ltScore":0},{"@type":"AssertionSearchResult","result":{"@id":"7361d923829fb9d08e398c2040b9207ca79e1682f14678e17b20e146b17880b1","metadata":{"keywords":["acme","executive obje
+cts","product"],"UALs":["2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","iss
+uer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:52:38.310Z","type":"Product"},"signature":"0xde0eef1b1501c23bdf88a825c73dc98e822aeedc10284fb62b9a
+6dda011e2d6b01c103d5491e93c8611166b1a20bb0c82b39980836435b2988fe5687302162641b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"7651097b162191f3cbd9885fc8c59edef2dc1a1f04c05dc5936cf7305c35ef3e","metadata":{"keywords":["acme","executive objects","product"],"UALs":["2d88
+24f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:55:30.432Z","type":"Product"},"signature":"0x7d17df78975045838224810dec7ba8c4979d7aae8e17cc0ae9b519e1416fce3b662a91753a5f4684b
+c82775c24724ee094fb9e7b1a7a7285d97e142d658253171c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"0f820749ff1629d9960cdede7dc44c399b1633d5778f2f92a2a1b6fb5ceed970","metadata":{"keywords":["acme","executive objects","product"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030
+ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T07:05:32.627Z","type":"Product"},"signature":"0x4d789308eecd
+bfae10b1bb6b0ace0d1d23498fff173dba41698c4f3c4205489a17e57c151cb4b196ba410a50d5117ca76dd02511828ffdb1de67636c10e3f2e81b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrL
+fFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"88f8038c03589bf61d824c31c6bc6270c8dca688c05f51971d5aa4eff3f29c02","metadata":{"keywords":["acme","exe
+cutive objects","product"],"UALs":["fe66e157c653654c894cde0a768c7d7a0fccec9b8bd4f40941517722bedc3cd1"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c642
+4e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T07:51:53.464Z","type":"Product"},"signature":"0x5b5e217e51cf2e430cf929cfffa8ce20222b6f7a6
+b3109809e4e2c23f3f474f05884caef341c7b9c65b584b55c3586f47f712b40af538cb570851c549c4e57b11c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@typ
+e":"AssertionSearchResult","result":{"@id":"50d3de3207ab163c9cbfa9d615651b9194320b843582bfe827dce00391ab2b92","metadata":{"keywords":["acme","executive objects","product"],"U
+ALs":["ebbd03bbeb0b20b637b435448e77267baf9a1d991ce107c961084ac855cdf006"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed92
+28d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T08:17:37.326Z","type":"Product"},"signature":"0x5c0f148f88cb84d19c18beb9d3c6c8e764c74b7200930fdfc441a44cee7ebd1f4cb0ac
+f9d8c085e2bfaf624effaee69e7b4d03326c19f9f413c785d2d72320f81c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","r
+esult":{"@id":"b958a60d40710ae02057098e3608b68bcd0a00b7c2167b0040146ff2519e3758","metadata":{"keywords":["acme","executive objects","product"],"UALs":["5d20ff73fbd52b81fd713a
+5e2a5755f3b576aab44e167df28d124e958f6ad620"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3
+e","timestamp":"2022-07-07T08:18:46.159Z","type":"Product"},"signature":"0xa83957954fc2417ef8d7c67bf3fa947a3472a4dc56d22d7639a33dbc04a8c3fe5b122b8d83fc5e9f267fec38fb1f6bcd7a5
+c4e47da5fdab7af947236959a19541c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"78cdb5afc2a1b6
+9e30ac29ed59cc81045eb3c6768014e1be67af66055b14b3ac","metadata":{"keywords":["acme","executive objects","product"],"UALs":["94f898109aa1f459d57b9a23da5930b24a709fd5cb2c425ef8f
+fd9adf6e57341"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T08
+:19:16.398Z","type":"Product"},"signature":"0xa34c75db2b0e9651dabe78351b2903676787ea25d11b6c5696ef3ea2202a7d56268edc804a9e21bdea74a2d95f7965db0ef057990cfaa2f0f0b6bce5f6ff0cc2
+1b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"2dd7b9d369698eddd7bca6970fbfbf249bf2ea8847c
+1eb587b56754bba8c6b31","metadata":{"keywords":["corporate solutions planner","dynamic functionality associate","product"],"UALs":["2033410644ec29b279397dc2e5f23a8151cb1d4b968
+db2bd6be1406a3b6004d6"],"dataHash":"e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af4c1fb0e65210b","issuer":"0xf4f34a317c7290aca6d76a5b8cef83d375c7dedd","timestamp":"2022-
+07-01T19:01:29.928Z","type":"Product","visibility":"public"},"signature":"0xbd75e5e24869a9be0ce4fef982bb29fed7e6b09672d483ee06c189f7ed6e9e5d0f45aa21d23c6a69410b9ed52d5c229461
+19c19d907e61f4071d21f2ea5757f91b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"80fd74ae949b5
+dce801b6d988aeb38fb61f7a7b2573d9bdc39f9c89beaed9206","metadata":{"keywords":["arch","direct","international","product"],"UALs":["dfebbcc9955067d89bf52e2ea2760efe819629237536d
+31eb73ef97f35c5859f"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07
+-01T19:43:34.112Z","type":"Product","visibility":"public"},"signature":"0xae5914ae64dcc396dd91103996b8774ab40bb26ee379f71617013d5846dc58ec5e0caeb1baec32f1b72e4ae3afbe9ebd9664
+81f7eebbf3e7b3566af9e9f58dd81c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"9ddcc7d14341378
+064b6dd9d96ef13574aed77489d70c430369a4fd7e144fbcc","metadata":{"keywords":["dameon","future","principal","product"],"UALs":["c4c3210c7f84b63811df6195d9831580cad95f14ec5c26e3e
+5469822b0505390"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-01T
+23:27:47.870Z","type":"Product","visibility":"public"},"signature":"0xca0f0e00a7a4edcf3599068777b4c047c9e5409e4f84776c7708a3770991945115b3bb6e3a61b2bbf06bd9a99abfcbbc2a7269e6
+a606588af3001ffda65c0cc81b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"2efaefccdaa307d7cfc
+9d70fbebd270aa6f29b5ebfd08211122f95ed752e8a2c","metadata":{"keywords":["human","product","senior"],"UALs":["a525e85eb89ecef6ecf12aa7ba58b2780c6c29bcfa5635e2a963465e9fb0c3be"]
+,"dataHash":"996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac","issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T07:17:33.406Z","t
+ype":"Product","visibility":"public"},"signature":"0xcdce53f0b82d94021ed1cdf1cfa906cce0b0d1e8a32599e9a7bb36c7b789e7e42c6c4b78c081c0f11caf048f73b63f3ad9bb6f32aa7390bfcc8449970
+d2224a01b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"22c1f90457a12813282174c61131b60a5702
+cdc80a45ffcda324cd43c7baed09","metadata":{"keywords":["human","principal","product"],"UALs":["b2a5b3ff3c7edb970b58e961e24f74e28171987c72c32478db915ef6945e63b4"],"dataHash":"9
+96cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac","issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T08:14:19.403Z","type":"Product"
+,"visibility":"public"},"signature":"0x5b830a095adb3f73881ac47c8861399c8086c8988b4d11d2f568271ae95931d91fee6527ca40d0ab0487529ec645417e91627a879009c9900faec1691c713b081c"},"n
+odes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"aabe0c552e50bcd5ec6c80e5d55d95dc79b26efb1312c2c42e
+0fa0686fba64ec","metadata":{"keywords":["ben andrews, pia o'meadhra","johan mÃ¥rd","product"],"dataHash":"6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e1bb9f13c93d5958","i
+ssuer":"0x83814b0054b0e8deca58e2ec4c7b4a7167377857","timestamp":"2022-07-01T23:45:25.900Z","type":"Movie","visibility":"public"},"signature":"0x7ff7a84218a972b47feefe50ddcac7
+cc9a090beb0d70ab396139f2089bb8fa8c28e541efe544998164d678863ec60c4d630476a9582a310437dc2765b049a2551c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore
+":0},{"@type":"AssertionSearchResult","result":{"@id":"ac709c2155ef31dad3fec4b5c6c6fc0182f30d5babc1f3683e3c7cffd8e11e4d","metadata":{"keywords":["future","product","sallie","
+senior"],"UALs":["a29044230828f1f8af3183c25a864bc708fcbfbac5739eb0e20b15546481b3b1"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0
+x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-02T04:08:04.630Z","type":"Product","visibility":"public"},"signature":"0x174f666c97bf3b00327bea13df0f9db29aa9b
+b856b9485be27fa4993a2460a8509a22d4447552f205e26c564dcd393682221b63679e245acde28a9247db17e041b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"
+@type":"AssertionSearchResult","result":{"@id":"6bf69ea363161004c09e33cb0d2df26458e50436c843a6df48e20150cc84009c","metadata":{"keywords":["district","dynamic","natalia","prod
+uct"],"UALs":["504c8c46f0cd1d72b259d35397e04f016d0e9095ed6b430189edb4a9929c5e3c"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2f
+e6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-02T11:36:33.049Z","type":"Product","visibility":"public"},"signature":"0xc849b6fe57aff7f9a944f3ab86eff42a232c6254
+a3c88410907d636ab33c45d274c48d9b0add70799e36a2b6917204f121166141fd80a229118188507601091d1c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@ty
+pe":"AssertionSearchResult","result":{"@id":"a4116b5c3e9bdea8697c30ad3f655f2ffeba2f1ec98081b43aeb3dc0cb656829","metadata":{"keywords":["ben andrews, pia o'meadhra","johan mÃ¥
+rd","product"],"dataHash":"6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e1bb9f13c93d5958","issuer":"0xedb2e83b2395da0bbb73d5384ae8cf632a84654d","timestamp":"2022-07-02T09:
+44:18.717Z","type":"Movie","visibility":"public"},"signature":"0xb8303790e49fad5c0a76bedb62628f989447222ff13d125d60acea91b1a01b7f3a6843ac808cfa0e53de9113a5dbc42f38205cd1dff18
+7a24add9be7b4030c161b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"b89d2b65448e04008cfb4ee9
+d1e13f27892184842859e05a7e85175b79ab4571","metadata":{"keywords":["central","forward","product","savanna"],"UALs":["8a6c1a2cda9dc48a00e8db8a3cada05c82c4464226c318297a80a27f27
+56d5c4"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-02T09:44:24.
+261Z","type":"Product","visibility":"public"},"signature":"0x344b5e6a03aee1a67a01995fc9c3d9dfd61aa2fd394f11c18964eba28147fd7904a23e8d53a37bcbe847249e1e1cb3e023303c6bc15943e01
+6db17914995848e1c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"f97a3a4aeabe6cd4378e0c188e31
+2d3f99b9fdea0880ad6343c1fa1c50d0b50e","metadata":{"keywords":["forward","national","product"],"UALs":["a2bcfc3592092fbece10ca6bab282faf2d0d64b1f595ae133bd17f706ff20d35"],"dat
+aHash":"996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac","issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T18:38:47.870Z","type":
+"Product","visibility":"public"},"signature":"0x73b4845b76897e4bde69a2694df97bdcfbb1e0a77f1ea2d29ad372c8661849e778970699fa130af1f4f58a2b3b0a64e00531948dfba1d2c15493b3a892f3c7
+4a1b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"98beed430ac0922dadf8efc7bb7635c31bed59fdc
+8110d7cb2cd4396bb34b530","metadata":{"keywords":["corporate","human","product"],"UALs":["bd46ca0dde0c1e0e11167d39b50c2a70e12f392c6142b55a75d95c36e7bce687"],"dataHash":"996cda
+a736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac","issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T10:07:51.618Z","type":"Product","vis
+ibility":"public"},"signature":"0xf89d97d42b3bb6a29549c72a930c7bf67a185d6b0d5fb47c6234e23df50835e0272a8a751da98430fc87e19b816c4fd5f7ce8ed02b57347c77cac5b0c296e7451c"},"nodes"
+:["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"81066092e75662bc2a767e9ac997f0cc1ba77ac9e788b40eea60cbc
+f725c93a5","metadata":{"keywords":["product"],"UALs":["32de919939ececeda60ae5a4cfab36ea4555617b1c6589c10947cae621a29010"],"dataHash":"3e3ed465532bef0786032e2b393ab1259483156a
+9b97b625408ed2ef9b446375","issuer":"0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b","timestamp":"2022-07-03T00:27:35.316Z","type":"Store","visibility":"public"},"signature":"0x81
+b3c2e09e30eafebefb8c9a5d1cb5975ba597218e5bd177007daef13e42033b16b2899bfaa72b00ced1b9a5a6eba9bbac201fe8b9d8bcc1a7f01faa82e542fe1b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU3
+71vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3b2dbace8e1a7921debbde9f7fdf4c9ad67d242031d96e7f0773464b7d23c7dc","metadata":{"keywords":["
+customer","forward","future","product"],"UALs":["f70fdc2c2c5b2360bce5a987d30dd615f19129f3276e1063696868f6cc95979f"],"dataHash":"fbaf708dcee9152900e612faeb30270b1b0ef4368d051a
+e5185a3391044a52a4","issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-03T06:38:58.807Z","type":"default","visibility":"public"},"signature":"0xf4b0a0
+09aed3b54504921ef5285fb5996535431e62bdb6418084cf825fb8333d3721eb885ed57f5fd3702e84c37fd92c04d6d9f734e061a456bfc4692ebc34db1c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vH
+fhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"b90d1e689fe1b1ad29152c7a68fc6122d6112a08488f08635b35aced1d2100fe","metadata":{"keywords":["forw
+ard","product","regional"],"UALs":["cc0462e381db02a8e7393a3342b5d79067a8d0daca45f915c8df0801aae38daf"],"dataHash":"996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c
+4ccac","issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T12:58:10.960Z","type":"Product","visibility":"public"},"signature":"0x523c3c92caf292e3ee2
+9dacb855437fadcbb0d0a6652c8e80301ed9545fd7f85664fb1b8461255cc1311d034e2c8837e96656e40eef20faf774eae07353cf6d41b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"
+resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"b2f5cf81a7928200931b628411dcede8de346b8ff6f98ba857ca29de5a9292d3","metadata":{"keywords":["ben andrews, pia
+o'meadhra","johan mÃ¥rd","product"],"dataHash":"6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e1bb9f13c93d5958","issuer":"0xbe84c954bbc37e3e62a7420cf395979a2b86d129","times
+tamp":"2022-07-02T20:52:25.601Z","type":"Movie","visibility":"public"},"signature":"0x0cb4772e2c57d7b241dbf3d3164f15c96dd29dca943f3a4475bceac66b5ce8e31b57c7313ebd918ad53dfbcc
+ec49b5bfa99b74fd8c67d96f66cbfcfdc74eea8d1c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"ccc
+fa94735fba343f113c94867fe5a10b9801e4a2d4556678cc83a31fffea6b1","metadata":{"keywords":["ben andrews, pia o'meadhra","johan mÃ¥rd","product"],"dataHash":"6916d94ce80b5b6224ff3
+f85374f456918f8420ba1213398e1bb9f13c93d5958","issuer":"0x9a1327ce665a94f20a4e0fa4b1531ba94e7425ee","timestamp":"2022-07-02T21:01:32.627Z","type":"Movie","visibility":"public"
+},"signature":"0x4f0269a0cc3d219fee08a25f6b0701792c1bb8a958e15eeab9600ea15505a30e1aac59099ad47aba7bc58f365ffbeac9faf319abfcad6963d1620c4d403a18d11c"},"nodes":["QmQ4ctxqzMd16D
+WTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"6503b11895886553b553309e7dcb08ddc83853629ad306b060358e6061e1724a","metad
+ata":{"keywords":["deshawn","human","national","product"],"UALs":["e817cfce51d3565c418792b02343aae1e32e010991fa4d1a1efc0a3d27614aa1"],"dataHash":"ed13153fa4090eceedf6c1dd1aa0
+30ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-02T06:56:14.461Z","type":"Product","visibility":"public"},"si
+gnature":"0xa24dd515a3101baf23c56c9af21c7e7488a43b4a4f4180dc7c8a1a48e86c9517440e50afdb8a99b1a4ab1403696e89559ee240161fdbb5b3fe3be72296ab14831c"},"nodes":["QmQ4ctxqzMd16DWTF3z
+NiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"4d5cd570bf58bf628638a968384e8b6052f4ddcc7a12351c9a184bc3fde06113","metadata":
+{"keywords":["chief research consultant","global implementation strategist","internal program producer","product"],"dataHash":"e9e585341951cef87c635c0ab09a707f7eca7ef13402929
+f4af4c1fb0e65210b","issuer":"0xf4f34a317c7290aca6d76a5b8cef83d375c7dedd","timestamp":"2022-07-03T08:34:49.370Z","type":"Product","visibility":"public"},"signature":"0x64ed38b
+7230e3f2543cb7b96e63ee73ac31cb62dc80f8026062371f028ae310e2090190d664d149635ba1be85e0d07e1f479d70d8a2aaf9705c26069f3b745661b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHf
+hNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"8b918200794480a6b915c8d548a03391b031e6a405f57e158fabb05da4b93b61","metadata":{"keywords":["futur
+e","global","jaunita","product"],"UALs":["02991e99799b1838a7ec1844958ac62fca45a1dd5cb725d6e37e1726ce873f98"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014
+f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-03T09:13:01.364Z","type":"Product","visibility":"public"},"signature":"0x59feea2ea8701
+ffb8731012448f72e727b637cc7c2f8a01f77b0035ff6df8ffb3fa95ab36530cc0001672eef27e74e16fa6642718c7395f7d7d45da689d6f3921c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan
+62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"6c5caf128e3b9ffd8b03e04941051e2c69babdf5460504ac1b9624c1ecdb8bdb","metadata":{"keywords":["ashish varm
+a","product","steve kasan, sachin mahashi"],"dataHash":"a370329ac571196cc5484f0e05b114b766338c7f0ffa2840f78c8894ada2163d","issuer":"0xbafb9fec64573b5a4359eb06f738c989298d07cf
+","timestamp":"2022-05-04T11:47:04.265Z","type":"Movie","visibility":"public"},"signature":"0x922ec00e9e400fa4d4a3f0160bc312b18a334a4df1045ff9687fe6ce3141b8743da35ac841ce49b8
+b419386448d6be6079d813aff73b2a9cef5ee073d59bd07e1b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@
+id":"b5f360059d65d774738a47c633af5c03ef215c4722dcbe1604049fc0d5e6cd9f","metadata":{"keywords":["category:meissen porcelain","ehrenfried walther von tschirnhaus","germany","ki
+ngdom of saxony","meissen","meissen manufactory","metropolitan museum of art","porcelain","product","utensil"],"UALs":["ed7733f074bab307c0f22536f224858ff69bfa50c1b6d2b8309497
+ce79c16af6"],"dataHash":"c5a7a60b1f4a5559123573b7a2385c3db88a751e0df88c6607acffd0a83807e6","issuer":"0x7ca1e583b03bc6b64848d1b10c1b528ef5383899","timestamp":"2022-05-05T06:40
+:27.601Z","type":"default","visibility":"public"},"signature":"0x964126fdf867f975f5aef1498dcbd055fac34f47950cc9e9a74d51bfc50a5402764cbbef6b62ea7e94473ca15137d1a797112c7a6c065
+515e0572919361be2411c"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"97983404c38c3a5b601d7df4
+31a333117986ad2bfce86c36278370453a2ab12e","metadata":{"keywords":["ashish varma","product","steve kasan, sachin mahashi"],"dataHash":"a370329ac571196cc5484f0e05b114b766338c7f
+0ffa2840f78c8894ada2163d","issuer":"0x3dab6801db61d234089c29c9c0128c2d0194928a","timestamp":"2022-05-05T09:52:07.851Z","type":"Movie","visibility":"public"},"signature":"0xed
+aa4a67e8378943028bd8e54d6d72c48e0d47bd1c1e9849d8078f606dd21dd9342bf9f5cfc9e483863dcf83311c13bc78f557553aab9201821a6acdc8b352111b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPG
+rntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d6a1a79bc49a784426f07eb0e3249502d750bf1edf379f859d3d45431ae71d26","metadata":{"keywords":["
+product"],"UALs":["c25d5386ff15cbed14452abdd47ad463cd0ca002cb00df283455005091041a88"],"dataHash":"15f60b37962f5d5028a6f0efc9ea253a3616df7ea4d0cc74190444f715f98597","issuer":"
+0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b","timestamp":"2022-05-05T12:00:33.828Z","type":"Store","visibility":"public"},"signature":"0xf4c1734e0de679e5402e0aab2a3329f12d94b7
+5d9a4930ce0be0cb51a2fd985d492d56924ab2bed9d342cd364a704ecd556fb1aa794213e4b170ac83a599934a1b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@
+type":"AssertionSearchResult","result":{"@id":"7d8449c42d096ffb49e7023738509f957bbab77fb67ca528031318f23d4aafac","metadata":{"keywords":["ashish varma","product","steve kasan
+, sachin mahashi"],"dataHash":"a370329ac571196cc5484f0e05b114b766338c7f0ffa2840f78c8894ada2163d","issuer":"0x7fe017fb82c2c70decf58835bf55135b7e2a0831","timestamp":"2022-05-05
+T11:09:30.154Z","type":"Movie","visibility":"public"},"signature":"0x5d4bf91d15b91a4c546ac12207f478d39fb541fd5831da266a8ecc5a73ee41cf6536a9c909d28df93f489d567585af5c59ee3bc71
+26f925c6814793702e119021b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"9fed4de34bfd843160f2
+88bc8cacdc6a8c49708c05ca596ef5fa8cec00a4bf9e","metadata":{"keywords":["product"],"UALs":["46d494e5dddccd6540d7e81130d33b3261462e20e1d91bc90fe09b048580e4b2"],"dataHash":"de580
+86dcdc67f4f05fdf5bff661d4e0b2d3bd5447ef741aef4a07dd8a108909","issuer":"0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b","timestamp":"2022-05-05T18:31:06.883Z","type":"Store","visi
+bility":"public"},"signature":"0x6339327490b98bcc90204d74186c51d86867f622a04bff208d586d14e0cb77af6ced7a722ceb9ccf8526cd85427ccd8fe2007a5b30abceafa7dfa7021a9fcd6d1b"},"nodes":
+["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"b2857b565b634b54868789a73701febea85f8fac94634c4ba629bd0b
+b4d41df6","metadata":{"keywords":["category:meissen porcelain","ehrenfried walther von tschirnhaus","germany","kingdom of saxony","meissen","meissen manufactory","metropolita
+n museum of art","porcelain","product","utensil"],"UALs":["ed7733f074bab307c0f22536f224858ff69bfa50c1b6d2b8309497ce79c16af6"],"dataHash":"c5a7a60b1f4a5559123573b7a2385c3db88a
+751e0df88c6607acffd0a83807e6","issuer":"0x7ca1e583b03bc6b64848d1b10c1b528ef5383899","timestamp":"2022-05-05T06:35:55.125Z","type":"default","visibility":"public"},"signature"
+:"0x79d6a0d5ab67096d6da0b9b0bd79f1b5010b25a4503c8a903f7ada62e2cb683e7f1b785b2103fa3b13af069fdb3df8a5a60700dfff19c106ebeb5d29946a9d741b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVF
+v1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"8ce1b9956188de9447cdb6be45084db654d859d1d863f3cdec97476d703a7aa5","metadata":{"keywor
+ds":["ashish varma","product","steve kasan, sachin mahashi"],"dataHash":"a370329ac571196cc5484f0e05b114b766338c7f0ffa2840f78c8894ada2163d","issuer":"0x02ffe8a489493bfb74253ae
+703c5264a6fba33fb","timestamp":"2022-05-05T13:53:32.921Z","type":"Movie","visibility":"public"},"signature":"0x72f2477797984e05889387b8e24ea44a4f3a998b73f6d051c9748dd6a5010e4
+d694f1a547f3795d4c4440840334d507142f0b4e46c8989de1daebc45fb9540eb1b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchRes
+ult","result":{"@id":"f7aab63bb7764fadfd0a363d4af4e06f22e85948604880107b2cb1b2d5893f15","metadata":{"keywords":["product"],"UALs":["c5ab9a4b6e71f53eb96d87c876f6c21e8c08ac3325
+a96e64b1d947a8148a55fa"],"dataHash":"1963b905a3530cfd4e6e1ffcb40ec413bc1891857c5aa1d0e0fa5f737eaaca05","issuer":"0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b","timestamp":"2022
+-05-06T00:48:06.890Z","type":"Store","visibility":"public"},"signature":"0x2a85b30471d8d4f3aee64069513a089c348a63e6e4f489c444e4e1f44a2eebfa65ecd7c52fc91f68bc43d0c785e428931a7
+16742700f574c805e94da52290c731c"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"91cfa4c011ee22
+aa1814f82e2f727e83d51e7120a96bc37ef0713d28b0747081","metadata":{"keywords":["ashish varma","product","steve kasan, sachin mahashi"],"dataHash":"a370329ac571196cc5484f0e05b114
+b766338c7f0ffa2840f78c8894ada2163d","issuer":"0x02ffe8a489493bfb74253ae703c5264a6fba33fb","timestamp":"2022-05-05T22:48:43.162Z","type":"Movie","visibility":"public"},"signat
+ure":"0x42e00d7352a9997e330bc5732fbed6ddb826629f8e4c442dcb875f8db328b0b207092cbb5a8f9c8693755a3dcaac9bbc364c35728305a3b24a86f0e8e57d8a501c"},"nodes":["QmQcY1XgxvSALM8bRupeoVn
+RHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"dc9bf9f3d44924ed27107a4dc8ed27036dbd1a26cf3299b25605af607b94d71d","metadata":{"ke
+ywords":["product"],"UALs":["6c5d674f960c87d6fd9ba1e8490fa067a50eaacd25c8e0509705d6508aa8abb7"],"dataHash":"edcfe9b67331800246f14e3759c25e59cce8c781a958e99dab51bde434ba4ca1",
+"issuer":"0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b","timestamp":"2022-05-05T17:51:07.741Z","type":"Store","visibility":"public"},"signature":"0xc6a6a075bb5e2364a8adf393b03f
+2c3f8d4c2e192c5f487a83f98c9a8c0acef506f228054b26f154b553302327fa3cb6ed57d46ef30332580c2e80bd45eb08de1b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultSco
+re":0},{"@type":"AssertionSearchResult","result":{"@id":"2df3c23db29bdcb231ce202a3004bf406927bb2746678e576bcb85541f495e46","metadata":{"keywords":["ashish varma","product","s
+teve kasan, sachin mahashi"],"dataHash":"a370329ac571196cc5484f0e05b114b766338c7f0ffa2840f78c8894ada2163d","issuer":"0x300c24c37baf2b02e6bdcebc6adc8aa8d54b3811","timestamp":"
+2022-05-06T05:09:36.049Z","type":"Movie","visibility":"public"},"signature":"0x8e182126fdaee941d03059e90e7568e80830cd2d11ada4f684e2463bb446ac634aa0b28fc89fa01a7eef6c067f54dc2
+25c868b63b36d02bec9158c31bbdafb871b"},"nodes":["QmQcY1XgxvSALM8bRupeoVnRHVFv1FBPGrntY97X9w49oC"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"e918de7886
+a92da1ce1dd0832fcb76582ae59e8697e8e4225eca8ad61b35770f","metadata":{"keywords":["product"],"UALs":["9d3bdfdf0482d2916f25cf2bc21cce298c7bda1aa3d3f1181208db5be2613dbd"],"dataHa
+sh":"2f4dd701068401a503d37f18fc4e30426314c7d1df94dd03b11beee8d04f9862","issuer":"0xbcd4266f27bcfbdfbf4cb6a0f5bd783bed036c1b","timestamp":"2022-05-06T01:33:24.567Z","type":"St
+ore","visibility":"public"},"signature":"0xc65b8a081a83a0de4e55c07c8676e08b1913f45e0189424b42828e0bd93b1de656e752a24e3239f6455356b119275546cd5b99ebff08a1d0c2b072d314f506301b"
+ ▲ fiverr/lukamichelson/dkg-client-v6-golang go run examples/main.go                                                                                               main 10h ⬡
+Search Assertions: {"@context":{"@vocab":"http://schema.org/","goog":"http://schema.googleapis.com/","resultScore":"goog:resultScore","detailedDescription":"goog:detailedDesc
+ription","EntitySearchResult":"goog:EntitySearchResult","kg":"http://g.co/kg"},"@type":"ItemList","itemCount":60,"itemListElement":[{"@type":"AssertionSearchResult","result":
+{"@id":"e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233","metadata":{"keywords":["customer","earnest","global","product"],"dataHash":"ed13153fa4090eceedf6c1d
+d1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-06T19:51:36.815Z","type":"Product","visibility":"public"
+},"signature":"0xef8cffa2669024d6b4ada57f85ba5db549df8cb7a1749e0185f09e245fedd51801214d6ee389ce8adbd6d73a47cbeb1f881efd0ac4e5db29b1700b5e3764ed7d1b"},"nodes":["QmeCVCyNTQQuRL
+wR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"f9c1981604bf065c2b7764a463a19cf8487f40d3d858e006dd532d1a98e510eb","metad
+ata":{"keywords":["district","national creative architect","product"],"dataHash":"e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af4c1fb0e65210b","issuer":"0x2f22bb04434d25
+7ce2e90ebaed045bd204336b10","timestamp":"2022-07-06T21:20:24.930Z","type":"Product","visibility":"public"},"signature":"0xe35a499d2a6b44331de96f4b0ed83bbf7e16b96fed4f7ead1fb3
+428623d8f5d43d4edb840263c15ffb7c86f5e173a512e5f9cbe203e2bf7a2d55c7003ae63a171b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"ab36cc4aa584daed7ed8cad03f7b273f517accb60cf82a6380778174d6c256d7","metadata":{"keywords":["acme","executive objects","product"],"UALs":["62a2
+78faa7154fe68233c24d584c11d281cbaa6a0d39bd66e96efcf53b0f19db"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-06T21:55:27.831Z","type":"Product"},"signature":"0xa49e63491eff4b9a920378b5b6efdd7f03cabca74bde7b9ee91b59cca54cb2061c381f03923d8f780
+d3ac79bb6517c5612b9bda30c9d8c34fc0d2ca18b5c36161b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"96fcff0f50f21d69a393b5cd4aa8457fcd172e2882a04178477390cc4bd55102","metadata":{"keywords":["acme","executive objects","product"],"UALs":["aa18f09f86dc7ef4b3ab5e31ca25c35fd
+fccfc2767f7e5404eec5198060b5a14"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timesta
+mp":"2022-07-06T21:57:02.415Z","type":"Product"},"signature":"0x83d6333db39cd1e8367e2a2521b1b640c2b44a63c00d5249f2b30928b29add7d447e4ee1e60c661e1a6fababdcd7abe876721b6136fb06
+687bc043953ea731fb1b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"70c36b1f4c098853056d593da
+e29e671b0c74569419f948e5b525f74a89c5d77","metadata":{"keywords":["acme","executive objects","product"],"UALs":["0378c423b7f9f30be27294b3c7999599bda633cd08e8963286a645e881a824
+95"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:01:06.917Z
+","type":"Product"},"signature":"0xc5eb71283215ad3ad898e6c552bd0968425e7d690238a7741a6ac97060be5d644dbe5f59723d3281b561d26f5d1a3b2ab357b524749fabbcd411cf76903b64851b"},"nodes
+":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d23fd7a3d13eab02a63b2a8a198edfd15bf0a4e51a2b7968e6a345
+26faf5ee97","metadata":{"keywords":["acme","executive objects","product"],"UALs":["0837d440b4185299f56319cec3d088977b5c515e9a0fff29639b11c8432a7d84"],"dataHash":"ed13153fa409
+0eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:02:04.353Z","type":"Product"},"signatur
+e":"0x80df30011fb074d67757b39bb5bdf4489d79d67ff3fbbfaa03a2459cd777ce1e346a3c157d06bd453559e7ac5aa26b44e49db058abae9889cc77dac6bf6f30381c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqy
+W5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3e154d07e0a1ccce6c67670fe69fb491e77584dd8283bc0373ad007465f3f5e3","metadata":{"keyw
+ords":["acme","executive objects","product"],"UALs":["cf220e292737ae245992cb3ea3cfa462a33b2f87fc82a50b3f9dec610a6eb50f"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f
+9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:10:49.785Z","type":"Product"},"signature":"0x5b2cf45b606bc8a6e9962bb
+c58bcc934bb21808f50d44515d202ff3a15ae16806c744a30ab483a4cc871535828498f86804c49da1f92e00a0c22b90718a4ec881b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resu
+ltScore":0},{"@type":"AssertionSearchResult","result":{"@id":"af55d130b9b265659625dec54e0b4d864c47094b6a3abf79d69e27486fc07012","metadata":{"keywords":["acme","executive obje
+cts","product"],"UALs":["e5ad3988086cbada0a6ba914fdc2574bb3c86b40de1c4106ede7ca1c6ddf5532"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","iss
+uer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:30:16.590Z","type":"Product"},"signature":"0xcf9bc395c1b0d7ef7a6d5a2546fe33e7023b530cd1045fa106bb
+67cbd4b426dd0736f07e9ec0d713dd481dc40469ce4f499bfae53a1c9e3d9e6d9b8378e7dfab1c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"78499d56368aedb55ae936977892a82b91e5b2022fb38af0b971709872fceef7","metadata":{"keywords":["acme","executive objects","product"],"UALs":["c6c6
+1d04cdb2a7587c1bfa857659ee00c942118a356ef91d033e57760c149497"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:33:04.917Z","type":"Product"},"signature":"0x29a1ae4129271261bdc73ba413b4a329932daeeaf23cfddf9a82314ac9db1df6668823251b01246bf
+3cb11a0dda833470569afdb4ed3a2bdc86cffcf111cf6f21c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"1c2caf85728c476be4ffb21785f3d1b674d997f313423236eb63cc574f83b604","metadata":{"keywords":["acme","executive objects","product"],"UALs":["aae9c64b77d0162c1d6bc8e9be13d82f7
+51f4768a1468bf598f7500cc720f521"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timesta
+mp":"2022-07-06T22:36:15.692Z","type":"Product"},"signature":"0x0f27baf8deb94ba10784724a361eb37f9a7cb530877f81247c48830cce271c6217d1c40d0b3b2c85b042a5a6746700ae68ed404f63a460
+cf298145cf683c290c1c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"3c899d23f5dc4a894bf5cdb1c
+3884f28ad613e1b8e8d87ad6cf5c29f8e6ed6d9","metadata":{"keywords":["acme","executive objects","product"],"UALs":["4a3f805b765ad1bdad9971ff78ad0ef53594212aaec6b7619cf374f85a0bc0
+82"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:37:23.503Z
+","type":"Product"},"signature":"0x7e1b1a0b90ae42b0e912c6e06b23c7286d3e0919d240cce2f74744379b48ca1f5ed2c09e0aca455284ff08ea97a57acc7bb8b0178c72190c5737c444b06762201b"},"nodes
+":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"d861a088ed54e2b9889c6415cf7663d99c8a1813346540e38b9472
+c9916a02cb","metadata":{"keywords":["acme","executive objects","product"],"UALs":["22b6850386e04a7404f59c7b5c3694d0893df36f0fe848b444182dd531ec2c7b"],"dataHash":"ed13153fa409
+0eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-06T22:38:40.033Z","type":"Product"},"signatur
+e":"0x3954f766934ba6eb1bc69d0274e3c3e6fb9cbf15c7fdcb435749af06f77fd2a1763c8dd3e902ff87a4d8b3083cc44c195821e2bd1e56aa7c6fcf7d3be076b4331c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqy
+W5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"67df9f916da62bf87a92b8eb0b1f395c3f881669d8890aa58c383ebf2e643471","metadata":{"keyw
+ords":["acme","executive objects","product"],"UALs":["2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f
+9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:46:37.009Z","type":"Product"},"signature":"0xd241ccac990e0b1ee5de84d
+6932355cbad0cba0e629832a206d3ccb785aa7a10577cf8bb1d1b1f77016debd071995e5df053e1daadb55601eef9e9c89cb938871c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resu
+ltScore":0},{"@type":"AssertionSearchResult","result":{"@id":"7361d923829fb9d08e398c2040b9207ca79e1682f14678e17b20e146b17880b1","metadata":{"keywords":["acme","executive obje
+cts","product"],"UALs":["2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","iss
+uer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:52:38.310Z","type":"Product"},"signature":"0xde0eef1b1501c23bdf88a825c73dc98e822aeedc10284fb62b9a
+6dda011e2d6b01c103d5491e93c8611166b1a20bb0c82b39980836435b2988fe5687302162641b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"Asserti
+onSearchResult","result":{"@id":"7651097b162191f3cbd9885fc8c59edef2dc1a1f04c05dc5936cf7305c35ef3e","metadata":{"keywords":["acme","executive objects","product"],"UALs":["2d88
+24f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f6489
+76bee29b4e2dc76fa3e","timestamp":"2022-07-07T06:55:30.432Z","type":"Product"},"signature":"0x7d17df78975045838224810dec7ba8c4979d7aae8e17cc0ae9b519e1416fce3b662a91753a5f4684b
+c82775c24724ee094fb9e7b1a7a7285d97e142d658253171c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@i
+d":"0f820749ff1629d9960cdede7dc44c399b1633d5778f2f92a2a1b6fb5ceed970","metadata":{"keywords":["acme","executive objects","product"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030
+ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T07:05:32.627Z","type":"Product"},"signature":"0x4d789308eecd
+bfae10b1bb6b0ace0d1d23498fff173dba41698c4f3c4205489a17e57c151cb4b196ba410a50d5117ca76dd02511828ffdb1de67636c10e3f2e81b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrL
+fFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"88f8038c03589bf61d824c31c6bc6270c8dca688c05f51971d5aa4eff3f29c02","metadata":{"keywords":["acme","exe
+cutive objects","product"],"UALs":["fe66e157c653654c894cde0a768c7d7a0fccec9b8bd4f40941517722bedc3cd1"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c642
+4e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T07:51:53.464Z","type":"Product"},"signature":"0x5b5e217e51cf2e430cf929cfffa8ce20222b6f7a6
+b3109809e4e2c23f3f474f05884caef341c7b9c65b584b55c3586f47f712b40af538cb570851c549c4e57b11c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@typ
+e":"AssertionSearchResult","result":{"@id":"50d3de3207ab163c9cbfa9d615651b9194320b843582bfe827dce00391ab2b92","metadata":{"keywords":["acme","executive objects","product"],"U
+ALs":["ebbd03bbeb0b20b637b435448e77267baf9a1d991ce107c961084ac855cdf006"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed92
+28d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T08:17:37.326Z","type":"Product"},"signature":"0x5c0f148f88cb84d19c18beb9d3c6c8e764c74b7200930fdfc441a44cee7ebd1f4cb0ac
+f9d8c085e2bfaf624effaee69e7b4d03326c19f9f413c785d2d72320f81c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","r
+esult":{"@id":"b958a60d40710ae02057098e3608b68bcd0a00b7c2167b0040146ff2519e3758","metadata":{"keywords":["acme","executive objects","product"],"UALs":["5d20ff73fbd52b81fd713a
+5e2a5755f3b576aab44e167df28d124e958f6ad620"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3
+e","timestamp":"2022-07-07T08:18:46.159Z","type":"Product"},"signature":"0xa83957954fc2417ef8d7c67bf3fa947a3472a4dc56d22d7639a33dbc04a8c3fe5b122b8d83fc5e9f267fec38fb1f6bcd7a5
+c4e47da5fdab7af947236959a19541c"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"78cdb5afc2a1b6
+9e30ac29ed59cc81045eb3c6768014e1be67af66055b14b3ac","metadata":{"keywords":["acme","executive objects","product"],"UALs":["94f898109aa1f459d57b9a23da5930b24a709fd5cb2c425ef8f
+fd9adf6e57341"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x3f7de3ed9228d255f648976bee29b4e2dc76fa3e","timestamp":"2022-07-07T08
+:19:16.398Z","type":"Product"},"signature":"0xa34c75db2b0e9651dabe78351b2903676787ea25d11b6c5696ef3ea2202a7d56268edc804a9e21bdea74a2d95f7965db0ef057990cfaa2f0f0b6bce5f6ff0cc2
+1b"},"nodes":["QmeCVCyNTQQuRLwR881MLEcqyW5yKop69u8tPcs6GrLfFB"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"9ddcc7d14341378064b6dd9d96ef13574aed77489d7
+0c430369a4fd7e144fbcc","metadata":{"keywords":["dameon","future","principal","product"],"UALs":["c4c3210c7f84b63811df6195d9831580cad95f14ec5c26e3e5469822b0505390"],"dataHash"
+:"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-01T23:27:47.870Z","type":"Produ
+ct","visibility":"public"},"signature":"0xca0f0e00a7a4edcf3599068777b4c047c9e5409e4f84776c7708a3770991945115b3bb6e3a61b2bbf06bd9a99abfcbbc2a7269e6a606588af3001ffda65c0cc81b"}
+,"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"aabe0c552e50bcd5ec6c80e5d55d95dc79b26efb1312c2c
+42e0fa0686fba64ec","metadata":{"keywords":["ben andrews, pia o'meadhra","johan mÃ¥rd","product"],"dataHash":"6916d94ce80b5b6224ff3f85374f456918f8420ba1213398e1bb9f13c93d5958"
+,"issuer":"0x83814b0054b0e8deca58e2ec4c7b4a7167377857","timestamp":"2022-07-01T23:45:25.900Z","type":"Movie","visibility":"public"},"signature":"0x7ff7a84218a972b47feefe50ddc
+ac7cc9a090beb0d70ab396139f2089bb8fa8c28e541efe544998164d678863ec60c4d630476a9582a310437dc2765b049a2551c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultSc
+ore":0},{"@type":"AssertionSearchResult","result":{"@id":"98beed430ac0922dadf8efc7bb7635c31bed59fdc8110d7cb2cd4396bb34b530","metadata":{"keywords":["corporate","human","produ
+ct"],"UALs":["bd46ca0dde0c1e0e11167d39b50c2a70e12f392c6142b55a75d95c36e7bce687"],"dataHash":"996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac","issuer":"0x2f2
+2bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T10:07:51.618Z","type":"Product","visibility":"public"},"signature":"0xf89d97d42b3bb6a29549c72a930c7bf67a185d6b0
+d5fb47c6234e23df50835e0272a8a751da98430fc87e19b816c4fd5f7ce8ed02b57347c77cac5b0c296e7451c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@typ
+e":"AssertionSearchResult","result":{"@id":"2dd7b9d369698eddd7bca6970fbfbf249bf2ea8847c1eb587b56754bba8c6b31","metadata":{"keywords":["corporate solutions planner","dynamic f
+unctionality associate","product"],"UALs":["2033410644ec29b279397dc2e5f23a8151cb1d4b968db2bd6be1406a3b6004d6"],"dataHash":"e9e585341951cef87c635c0ab09a707f7eca7ef13402929f4af
+4c1fb0e65210b","issuer":"0xf4f34a317c7290aca6d76a5b8cef83d375c7dedd","timestamp":"2022-07-01T19:01:29.928Z","type":"Product","visibility":"public"},"signature":"0xbd75e5e2486
+9a9be0ce4fef982bb29fed7e6b09672d483ee06c189f7ed6e9e5d0f45aa21d23c6a69410b9ed52d5c22946119c19d907e61f4071d21f2ea5757f91b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPo
+an62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"80fd74ae949b5dce801b6d988aeb38fb61f7a7b2573d9bdc39f9c89beaed9206","metadata":{"keywords":["arch","di
+rect","international","product"],"UALs":["dfebbcc9955067d89bf52e2ea2760efe819629237536d31eb73ef97f35c5859f"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014
+f1c6424e7dd","issuer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-01T19:43:34.112Z","type":"Product","visibility":"public"},"signature":"0xae5914ae64dcc
+396dd91103996b8774ab40bb26ee379f71617013d5846dc58ec5e0caeb1baec32f1b72e4ae3afbe9ebd966481f7eebbf3e7b3566af9e9f58dd81c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan
+62"],"resultScore":0},{"@type":"AssertionSearchResult","result":{"@id":"f97a3a4aeabe6cd4378e0c188e312d3f99b9fdea0880ad6343c1fa1c50d0b50e","metadata":{"keywords":["forward","n
+ational","product"],"UALs":["a2bcfc3592092fbece10ca6bab282faf2d0d64b1f595ae133bd17f706ff20d35"],"dataHash":"996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac",
+"issuer":"0x2f22bb04434d257ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T18:38:47.870Z","type":"Product","visibility":"public"},"signature":"0x73b4845b76897e4bde69a2694d
+f97bdcfbb1e0a77f1ea2d29ad372c8661849e778970699fa130af1f4f58a2b3b0a64e00531948dfba1d2c15493b3a892f3c74a1b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultS
+core":0},{"@type":"AssertionSearchResult","result":{"@id":"6bf69ea363161004c09e33cb0d2df26458e50436c843a6df48e20150cc84009c","metadata":{"keywords":["district","dynamic","nat
+alia","product"],"UALs":["504c8c46f0cd1d72b259d35397e04f016d0e9095ed6b430189edb4a9929c5e3c"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","is
+suer":"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-02T11:36:33.049Z","type":"Product","visibility":"public"},"signature":"0xc849b6fe57aff7f9a944f3ab86eff
+42a232c6254a3c88410907d636ab33c45d274c48d9b0add70799e36a2b6917204f121166141fd80a229118188507601091d1c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScor
+e":0},{"@type":"AssertionSearchResult","result":{"@id":"6503b11895886553b553309e7dcb08ddc83853629ad306b060358e6061e1724a","metadata":{"keywords":["deshawn","human","national"
+,"product"],"UALs":["e817cfce51d3565c418792b02343aae1e32e010991fa4d1a1efc0a3d27614aa1"],"dataHash":"ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd","issuer"
+:"0x2fe6cea6893f97834d59e7fb963e88d33708093c","timestamp":"2022-07-02T06:56:14.461Z","type":"Product","visibility":"public"},"signature":"0xa24dd515a3101baf23c56c9af21c7e7488
+a43b4a4f4180dc7c8a1a48e86c9517440e50afdb8a99b1a4ab1403696e89559ee240161fdbb5b3fe3be72296ab14831c"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0}
+,{"@type":"AssertionSearchResult","result":{"@id":"2efaefccdaa307d7cfc9d70fbebd270aa6f29b5ebfd08211122f95ed752e8a2c","metadata":{"keywords":["human","product","senior"],"UALs
+":["a525e85eb89ecef6ecf12aa7ba58b2780c6c29bcfa5635e2a963465e9fb0c3be"],"dataHash":"996cdaa736739fa67f25c90465cda922b36270ae007f540beb02843e59c4ccac","issuer":"0x2f22bb04434d2
+57ce2e90ebaed045bd204336b10","timestamp":"2022-07-02T07:17:33.406Z","type":"Product","visibility":"public"},"signature":"0xcdce53f0b82d94021ed1cdf1cfa906cce0b0d1e8a32599e9a7b
+b36c7b789e7e42c6c4b78c081c0f11caf048f73b63f3ad9bb6f32aa7390bfcc8449970d2224a01b"},"nodes":["QmQ4ctxqzMd16DWTF3zNiLNZrLXbXzPU371vHfhNPoan62"],"resultScore":0},{"@type":"Assert
+ionSearchResult","result":{"@id":"b90d1e689fe1b1ad29152c7a68fc6122d6112a08488f08635b35aced1d2100fe","metadata":{"keywords":["forward","product","regional"],"UALs":["cc0462e38
+ ▲ fiverr/lukamichelson/dkg-client-v6-golang go run examples/main.go
+
+
+
+map[
+    assertion:map[
+	blockchain:map[
+	    name:polygon::testnet transactionHash:0x5995587d411e0f241bd0215140d11ae63fcd03fd7ec8dd6bfc41c71060782b0b]
+	    data:map[@context:https://www.schema.org/
+	    @graph:[
+		map[
+		    aggregateRating:map[id:_:b1 ratingValue:4.4 reviewCount:89 type:AggregateRating]
+		    brand:map[id:_:b2 name:ACME type:Thing] description:Sleeker than ACME's Classic Anvil, the Executive Anvil is perfect for the business traveler looking for something to drop from a height. image:http://www.example.com/anvil_executive.jpg mpn:925872 name:Executive Anvil offers:map[availability:http://schema.org/InStock id:_:b3 itemCondition:http://schema.org/UsedCondition price:119.99 priceCurrency:USD priceValidUntil:2020-11-05 seller:map[id:_:b4 name:Executive Objects type:Organization]
+		    type:Offer
+		    ]
+	    type:Product
+	    ]
+	map[id:_:b1 ratingValue:4.4 reviewCount:89 type:AggregateRating]
+	map[id:_:b2name:ACME type:Thing]
+	map[availability:http://schema.org/InStock id:_:b3 itemCondition:http://schema.org/UsedCondition price:119.99 priceCurrency:USD priceValidUntil:2020-11-05
+	seller:map[id:_:b4 name:Executive Objects type:Organization] type:Offer] map[id:_:b4 name:Executive Objects type:Organization]]] id:e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233
+	metadata:map[
+	    dataHash:ed13153fa4090eceedf6c1dd1aa030ec45ab75c2f9510c64a2014f1c6424e7dd issuer:0x2fe6cea6893f97834d59e7fb963e88d33708093c keywords:[c
+ustomer earnest global product] timestamp:2022-07-06T19:51:36.815Z type:Product visibility:public] signature:0xef8cffa2669024d6b4ada57f85ba5db549df8cb7a1749e0185f09e2
+801214d6ee389ce8adbd6d73a47cbeb1f881efd0ac4e5db29b1700b5e3764ed7d1b] id:e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233 type:assertion]
+
+
+
+[{<did:dkg:e6dff9d9bdf308418c6b45ca22f3524664494965ee798d7f5f78a00a046ad233> <http://schema.org/hasType> "Product" . false}]
+ ▲ fiverr/lukamichelson/dkg-client-v6-golang                                                                                                           39s main 10h ⬡
+
