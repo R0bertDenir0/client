@@ -200,8 +200,6 @@ func (ac *nativeAbstractClient) Publish(options PublishOptions) ([]byte, error) 
 		return nil, err
 	}
 
-	fmt.Println(string(resp))
-
 	queryResponse := make(map[string]interface{})
 
 	// Transform response to json struct
@@ -376,8 +374,6 @@ func (ac *nativeAbstractClient) Search(options SearchRequestOptions) ([]byte, er
 	// Variable that stores the json as a map
 	searchRequestResponse := make(map[string]interface{})
 
-	fmt.Println(string(resp))
-
 	// Transform response to json struct
 	if err := json.Unmarshal(resp, &searchRequestResponse); err != nil {
 		return nil, errors.New("Could not unmarshal search result response")
@@ -418,8 +414,6 @@ func (ac *nativeAbstractClient) searchRequest(options SearchRequestOptions) ([]b
 
 	// Format the URL
 	formUrl := fmt.Sprintf("%s/%s:search?%s", ac.nodeBaseUrl, options.ResultType, searchForm.Encode())
-
-    	fmt.Println(formUrl)
 
 	// Make the request
 	req, err := http.NewRequest(http.MethodGet, formUrl, nil)
@@ -498,8 +492,6 @@ func (ac *nativeAbstractClient) getSearchResult(options SearchResultOptions) ([]
 
 	// Loop until the timeout is done, the request fails and the number of results is reached
 	for {
-		fmt.Println("Looping")
-
 		// Goroutine that will make the response go every 5 seconds
 		sleepTimeout := make(chan bool, 1)
 		go func() {
@@ -555,8 +547,6 @@ func (ac *nativeAbstractClient) Query(options QueryOptions) ([]byte, error) {
 	}
 
 	queryResponse := make(map[string]interface{})
-
-	fmt.Println(string(resp))
 
 	// Transform response to json struct
 	if err := json.Unmarshal(resp, &queryResponse); err != nil {
@@ -893,8 +883,6 @@ func (ac *nativeAbstractClient) getResult(options GetResultOptions) ([]byte, err
 	timerFlag := make(chan bool, 1)
 
 	for {
-		fmt.Println("intento")
-
 		// If we do more retries that the max number of retries, return an error
 		if retries > ac.MaxNumberOfRetries {
 			return nil, errors.New("Unable to get results. Max number of retries reached")
@@ -932,25 +920,16 @@ func (ac *nativeAbstractClient) getResult(options GetResultOptions) ([]byte, err
 
 		ac.Logger.Debug(fmt.Sprintf("%s result status: %s", options.Operation, resultResponse["status"]))
 
-
-		fmt.Println(resultResponse)
-
 		// If the result is not pending, break the loop
 		if resultResponse["status"] != Pending {
-			fmt.Println("BREAKS")
 			break
 		}
 	}
-
-	fmt.Println("1")
 
 	// If failed, raise an error
 	if resultResponse["status"] == Failed {
 		return nil, errors.New(fmt.Sprintf("Get %s failed. Reason: %s", options.Operation, resultResponse["message"]))
 	}
-
-
-	fmt.Println("2")
 
 	// If no error found, return the JSON response
 	return b, nil

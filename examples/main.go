@@ -21,102 +21,102 @@ func main() {
 	}
 
 	// Get info about endpoint that you connected to ---WORKING---
-	//out, err := dkg.Client.NodeInfo()
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println("Node Info:")
-	//fmt.Println(string(out))
+	out, err := dkg.Client.NodeInfo()
+	if err != nil {
+	panic(err)
+	}
+	fmt.Println("Node Info:")
+	fmt.Println(string(out))
 
 	// Provisioning an asset ---WORKING---
-	// createOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	// createOut, err := dkg.Assets.Create(createOpt)
-	// if err != nil {
-	//     panic(err)
-	// }
-	// fmt.Println(string(createOut))
+	createOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	createOut, err := dkg.Assets.Create(createOpt)
+	if err != nil {
+	    panic(err)
+	}
+	fmt.Println(string(createOut))
 
 	// Updating the previously provisioned asset ---WORKING---
 	// Set this to the UAL returned when provisioning the asset in the function above
 	// This value, the UAL, is used to identify certain asset and update it
 	// The function above should have returned a JSON, searrch for "UALs" entry inside of the JSON, thats your UAL
-	// ual := ""
-	// updateOpt := d.UpdateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	// updateOut, err := dkg.Assets.Update(ual, updateOpt)
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// fmt.Println(string(updateOut))
+	ual := ""
+	updateOpt := d.UpdateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	updateOut, err := dkg.Assets.Update(ual, updateOpt)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(string(updateOut))
 
 	// Publishing a dataset ---WORKING---
-	// publishOpt := d.PublishOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	// publishOut, err := dkg.Client.Publish(publishOpt)
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// fmt.Println(string(publishOut))
+	publishOpt := d.PublishOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	publishOut, err := dkg.Client.Publish(publishOpt)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(string(publishOut))
 
 	// Resolving assertion ---WORKING---
-	// resolveOpt := d.ResolveRequestOptions{IDS: []string{
-	// "066787bc7269c062fe73b0ebb004c258e07151777e6dfba027fea046df5caf7c",
-	// "2286826799d0a32a6f0eec7813fcb627910be45fca21f6378cb26ca95097c939"},
-	// }
-	// resolveOut, err := dkg.Client.Resolve(resolveOpt)
-	// if err != nil {
-	//     panic(err)
-	// }
-	// fmt.Println(string(resolveOut))
+	resolveOpt := d.ResolveRequestOptions{IDS: []string{
+	"066787bc7269c062fe73b0ebb004c258e07151777e6dfba027fea046df5caf7c",
+	"2286826799d0a32a6f0eec7813fcb627910be45fca21f6378cb26ca95097c939"},
+	}
+	resolveOut, err := dkg.Client.Resolve(resolveOpt)
+	if err != nil {
+	    panic(err)
+	}
+	fmt.Println(string(resolveOut))
 
 	// Search assertions ---WORKING---
-	// searchAssertionsOpt := d.SearchRequestOptions{
-	// Query:            "Product",
-	// ResultType:       "assertions",
-	// Prefix:           true,
-	// Limit:            20,
-	// Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
-	// SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
-	// NumbersOfResults: 10,
-	// Timeout:          25,
-	// }
-	// searchAssertionsOut, err := dkg.Client.Search(searchAssertionsOpt)
-	// if err != nil {
-	//     panic(err)
-	// }
-	// fmt.Println(string(searchAssertionsOut))
+	searchAssertionsOpt := d.SearchRequestOptions{
+	Query:            "Product",
+	ResultType:       "assertions",
+	Prefix:           true,
+	Limit:            20,
+	Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
+	SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
+	NumbersOfResults: 10,
+	Timeout:          25,
+	}
+	searchAssertionsOut, err := dkg.Client.Search(searchAssertionsOpt)
+	if err != nil {
+	    panic(err)
+	}
+	fmt.Println(string(searchAssertionsOut))
 
 	// Search entities ---WORKING---
-	// searchEntitiesOpt := d.SearchRequestOptions{
-	// Query:            "Product",
-	// ResultType:       "entities",
-	// Prefix:           true,
-	// Limit:            20,
-	// Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
-	// SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
-	// NumbersOfResults: 5,
-	// Timeout:          25,
-	// }
-	// searchEntitiesOut, err := dkg.Client.Search(searchEntitiesOpt)
-	// if err != nil {
-	//     panic(err)
-	// }
-	// fmt.Println(string(searchEntitiesOut))
+	searchEntitiesOpt := d.SearchRequestOptions{
+	Query:            "Product",
+	ResultType:       "entities",
+	Prefix:           true,
+	Limit:            20,
+	Issuers:          []string{"Issuer 1", "Issuer 2"}, //Unused by the API, but was in the js-code
+	SchemaTypes:      "Schema Type 1",                  //Unused by the API, but was in the js-code
+	NumbersOfResults: 5,
+	Timeout:          25,
+	}
+	searchEntitiesOut, err := dkg.Client.Search(searchEntitiesOpt)
+	if err != nil {
+	    panic(err)
+	}
+	fmt.Println(string(searchEntitiesOut))
 
 	// Execute sparql query on dkg ---WORKING---
-// 	q := `PREFIX schema: <http://schema.org/>
-// 	CONSTRUCT { ?s ?p ?o }
-// 	WHERE {
-// 		GRAPH ?g {
-// 		?s ?p ?o .
-// 		?s schema:hasVisibility ?v
-// 	}
-// }`
-// 	queryOpt := d.QueryOptions{Query: q, Type: "construct"}
-//
-// 	queryOut, err := dkg.Client.Query(queryOpt)
-// 	if err != nil {
-// 		panic(err)
-// 	}
-// 	fmt.Println(string(queryOut))
+	q := `PREFIX schema: <http://schema.org/>
+	CONSTRUCT { ?s ?p ?o }
+	WHERE {
+		GRAPH ?g {
+		?s ?p ?o .
+		?s schema:hasVisibility ?v
+	}
+}`
+	queryOpt := d.QueryOptions{Query: q, Type: "construct"}
+
+	queryOut, err := dkg.Client.Query(queryOpt)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(string(queryOut))
 
 	// Validate some triples that we can get querying
 	//validateOpt := d.ValidateOptions{Nquads: []string{
