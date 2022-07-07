@@ -36,22 +36,25 @@ func main() {
 	// }
 	// fmt.Println(string(createOut))
 
-	// Updating the previously provisioned asset
-	ual := "2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46" // Set this to the UAL returned when provisioning an assert to update it
-	updateOpt := d.UpdateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	updateOut, err := dkg.Assets.Update(ual, updateOpt)
-	if err != nil {
-	panic(err)
-	}
-	fmt.Println(string(updateOut))
+	// Updating the previously provisioned asset ---WORKING---
+	// Set this to the UAL returned when provisioning the asset in the function above
+	// This value, the UAL, is used to identify certain asset and update it
+	// The function above should have returned a JSON, searrch for "UALs" entry inside of the JSON, thats your UAL
+	// ual := ""
+	// updateOpt := d.UpdateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	// updateOut, err := dkg.Assets.Update(ual, updateOpt)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// fmt.Println(string(updateOut))
 
-	// Publishing a dataset
-	//publishOpt := d.PublishRequestOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	//publishOut, err := dkg.Client.Publish(publishOpt)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(publishOut)
+	// Publishing a dataset ---WORKING---
+	// publishOpt := d.PublishOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	// publishOut, err := dkg.Client.Publish(publishOpt)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// fmt.Println(string(publishOut))
 
 	// Resolving assertion
 	//resolveOpt := d.ResolveRequestOptions{IDS: []string{

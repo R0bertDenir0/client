@@ -168,24 +168,45 @@ type PublishRequestOptions struct {
 	UAL      string
 }
 
+
+// Options for building a PublishRequest
+type PublishOptions struct {
+	Data     string
+	Filepath string
+	Keywords []string
+	UAL      string
+}
+
 // Function that "publishes" a file to the network
-func (ac *nativeAbstractClient) Publish(options PublishRequestOptions) ([]byte, error) {
+func (ac *nativeAbstractClient) Publish(options PublishOptions) ([]byte, error) {
 	// Check arguments
 	if options.Filepath == "" && options.Data == "" {
 		return nil, errors.New("Please provide atleast Filepath or Data")
 	}
 
-	// Make a query request
-	resp, err := ac.publishRequest(options)
+	// Form the options' struct
+	opts := PublishRequestOptions{
+	    		Method:   "publish",
+			Data:     options.Data,
+			Filepath: options.Filepath,
+			Keywords: options.Keywords,
+			UAL:      options.UAL,
+		}
+
+
+	// Create the request
+	resp, err := ac.publishRequest(opts)
 	if err != nil {
 		return nil, err
 	}
+
+	fmt.Println(string(resp))
 
 	queryResponse := make(map[string]interface{})
 
 	// Transform response to json struct
 	if err := json.Unmarshal(resp, &queryResponse); err != nil {
-		return nil, errors.New("Could not unmarshal query request response")
+		return nil, err
 	}
 
 	// Get the handler id
