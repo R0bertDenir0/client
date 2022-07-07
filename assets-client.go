@@ -58,26 +58,31 @@ type UpdateOptions struct {
 	Keywords []string
 }
 
-func (ac *assetsClient) Update(ual string, options CreateOptions) ([]byte, error) {
-	if options.Filepath == "" || options.Data == "" {
+func (ac *assetsClient) Update(ual string, options UpdateOptions) ([]byte, error) {
+	if options.Filepath == "" && options.Data == "" {
 		return nil, errors.New("Please provide update options in order to update")
 	}
 
 	opt := PublishRequestOptions{"update", options.Data, options.Filepath, options.Keywords, ual}
 
-	resp, err := ac.Client.Publish(opt)
+	// Make the request
+	resp, err := ac.Client.publishRequest(opt)
 	if err != nil {
 		return nil, err
 	}
 
-	publishResponse := make(map[string]interface{})
+	createResponse := make(map[string]interface{})
 
-	// transform response to json struct
-	if err := json.Unmarshal(resp, &publishResponse); err != nil {
-		return nil, errors.New("Could not unmarshal resolve request response")
+	// Transform response to json struct
+	if err := json.Unmarshal(resp, &createResponse); err != nil {
+		return nil, errors.New("Could not unmarshal query request response")
 	}
 
-	respJson, err := ac.Client.getResult(GetResultOptions{publishResponse["handler_id"].(string), opt.Method})
+	// Get the handler id
+	resultOpt := GetResultOptions{createResponse["handler_id"].(string), "publish"}
+
+	// Get the actual result
+	respJson, err := ac.Client.getResult(resultOpt)
 	if err != nil {
 		return nil, err
 	}

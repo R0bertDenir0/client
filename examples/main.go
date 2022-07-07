@@ -28,22 +28,22 @@ func main() {
 	//fmt.Println("Node Info:")
 	//fmt.Println(string(out))
 
-	// Provisioning an asset
-	createOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	createOut, err := dkg.Assets.Create(createOpt)
-	if err != nil {
-	    panic(err)
-	}
-	fmt.Println(string(createOut))
+	// Provisioning an asset ---WORKING---
+	// createOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	// createOut, err := dkg.Assets.Create(createOpt)
+	// if err != nil {
+	//     panic(err)
+	// }
+	// fmt.Println(string(createOut))
 
 	// Updating the previously provisioned asset
-	//ual := "" // Set this to the UAL returned when provisioning an assert to update it
-	//updateOpt := d.CreateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
-	//updateOut, err := dkg.Assets.Update(ual, updateOpt)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(updateOut)
+	ual := "2d8824f67b1183dde7a277a92120acbdb35d6f6e2be1b31827b08a2597538b46" // Set this to the UAL returned when provisioning an assert to update it
+	updateOpt := d.UpdateOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
+	updateOut, err := dkg.Assets.Update(ual, updateOpt)
+	if err != nil {
+	panic(err)
+	}
+	fmt.Println(string(updateOut))
 
 	// Publishing a dataset
 	//publishOpt := d.PublishRequestOptions{Filepath: "./kg-example.json", Data: "", Keywords: []string{"Product", "Executive Objects", "ACME"}}
